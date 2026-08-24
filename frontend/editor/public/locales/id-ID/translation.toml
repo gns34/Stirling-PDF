@@ -3969,6 +3969,7 @@ back = "Kembali"
 backToFolder = "Kembali ke {{folder}}"
 backToMyFiles = "Kembali ke File Saya"
 breadcrumbs = "Jalur folder"
+bulkActions = "Actions"
 cancel = "Batal"
 classification = "Klasifikasi"
 clearSelection = "Hapus pilihan"
@@ -4142,6 +4143,11 @@ totalSize = "Total ukuran"
 type = "Jenis"
 versionHistory = "Perjalanan versi"
 
+[filesPage.filters]
+activeCount = "{{count}} filters active"
+clearAll = "Clear filters"
+label = "Filters"
+
 [filesPage.folderName]
 cancel = "Batal"
 error = "Tidak dapat menyimpan folder. Coba lagi."
@@ -4176,6 +4182,7 @@ label = "Filter files by name"
 placeholder = "Filter files…"
 
 [filesPage.sort]
+label = "Sort files"
 modifiedAsc = "Terlama dulu"
 modifiedDesc = "Terbaru dulu"
 nameAsc = "Nama A→Z"
@@ -4584,6 +4591,10 @@ title = "Ubah Metadata"
 desc = "Ubah pembatasan dan izin dokumen"
 tags = "permissions,restrictions,rights,access control,allow,deny,printing,copying,editing,modify permissions,security settings,user rights"
 title = "Ganti Perizinan"
+
+[home.classify]
+desc = "Identify what kind of document this is and tag it."
+title = "Classify"
 
 [home.compare]
 desc = "Membandingkan dan menunjukkan perbedaan antara 2 Dokumen PDF"
@@ -9696,7 +9707,9 @@ toolNotAvailableLocally = "Server Stirling-PDF Anda sedang offline dan \"{{endpo
 expired = "Sesi Anda telah kedaluwarsa. Silakan muat ulang halaman dan coba lagi."
 
 [settings]
+backToSections = "All settings"
 close = "Tutup"
+title = "Settings"
 
 [settings.ai]
 documents = "Dokumen & RAG"
@@ -10635,6 +10648,7 @@ ariaLabel = "Super search"
 filtersAriaLabel = "Search filters"
 hint = "Type to search"
 placeholder = "Search Stirling"
+placeholderShort = "Search"
 showLess = "Show less"
 showMore = "Show {{count}} more"
 
@@ -10831,6 +10845,7 @@ searchPlaceholder = "Cari alat..."
 
 [toolPicker.subcategories]
 advancedFormatting = "Pemformatan Lanjutan"
+ai = "AI"
 automation = "Otomatisasi"
 developerTools = "Alat Pengembang"
 documentReview = "Peninjauan Dokumen"
@@ -11335,8 +11350,11 @@ columnDefault = "Kolom {{index}}"
 convertToPdf = "Konversi ke PDF"
 csvStats = "{{rows}} baris · {{columns}} kolom · {{size}}"
 emptyFile = "File kosong"
+htmlHidePreview = "Hide preview"
 htmlPreview = "Pratinjau HTML"
+htmlPreviewMobileHidden = "HTML pages are laid out for desktop widths, so the preview is off by default here."
 htmlPreviewWarning = "Pratinjau HTML — sumber eksternal mungkin tidak dimuat · {{size}}"
+htmlShowPreview = "Show preview anyway"
 invalidJson = "JSON tidak valid — menampilkan konten mentah"
 lineNumbers = "Nomor baris"
 loading = "Memuat..."
@@ -11683,6 +11701,7 @@ exportAll = "Ekspor PDF"
 exportSelected = "Ekspor Halaman yang Dipilih"
 formFill = "Isi Formulir"
 hideToolbar = "Hide toolbar"
+moreActions = "More actions"
 multiTool = "Multi-Tool"
 panMode = "Mode Geser"
 print = "Cetak PDF"
@@ -11703,6 +11722,8 @@ selectAll = "Pilih Semua"
 selectByNumber = "Pilih berdasarkan Nomor Halaman"
 selectLanguage = "Pilih bahasa"
 share = "Bagikan"
+showAllTools = "Show all tools"
+showFewerTools = "Collapse toolbar"
 showToolbar = "Show toolbar"
 toggleAnnotations = "Tampilkan/Sembunyikan Anotasi"
 toggleAttachments = "Tampilkan/Sembunyikan Lampiran"

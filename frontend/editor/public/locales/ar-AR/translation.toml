@@ -3969,6 +3969,7 @@ back = "رجوع"
 backToFolder = "الرجوع إلى {{folder}}"
 backToMyFiles = "الرجوع إلى ملفاتي"
 breadcrumbs = "مسار المجلد"
+bulkActions = "Actions"
 cancel = "إلغاء"
 classification = "التصنيف"
 clearSelection = "مسح التحديد"
@@ -4142,6 +4143,11 @@ totalSize = "الحجم الإجمالي"
 type = "النوع"
 versionHistory = "رحلة الإصدارات"
 
+[filesPage.filters]
+activeCount = "{{count}} filters active"
+clearAll = "Clear filters"
+label = "Filters"
+
 [filesPage.folderName]
 cancel = "إلغاء"
 error = "تعذّر حفظ المجلد. حاول مرة أخرى."
@@ -4176,6 +4182,7 @@ label = "Filter files by name"
 placeholder = "Filter files…"
 
 [filesPage.sort]
+label = "Sort files"
 modifiedAsc = "الأقدم أولاً"
 modifiedDesc = "الأحدث أولاً"
 nameAsc = "الاسم A→Z"
@@ -4584,6 +4591,10 @@ title = "تغيير البيانات الوصفية"
 desc = "تغيير قيود المستند وأذوناته"
 tags = "permissions,restrictions,rights,access control,allow,deny,printing,copying,editing,modify permissions,security settings,user rights"
 title = "تغيير الأذونات"
+
+[home.classify]
+desc = "Identify what kind of document this is and tag it."
+title = "Classify"
 
 [home.compare]
 desc = "يقارن ويظهر الاختلافات بين مستندين PDF"
@@ -9696,7 +9707,9 @@ toolNotAvailableLocally = "خادم Stirling-PDF الخاص بك غير متصل
 expired = "لقد انتهت جلستك. يرجى تحديث الصفحة والمحاولة مرة أخرى"
 
 [settings]
+backToSections = "All settings"
 close = "إغلاق"
+title = "Settings"
 
 [settings.ai]
 documents = "المستندات و RAG"
@@ -10635,6 +10648,7 @@ ariaLabel = "Super search"
 filtersAriaLabel = "Search filters"
 hint = "Type to search"
 placeholder = "Search Stirling"
+placeholderShort = "Search"
 showLess = "Show less"
 showMore = "Show {{count}} more"
 
@@ -10831,6 +10845,7 @@ searchPlaceholder = "ابحث عن الأدوات..."
 
 [toolPicker.subcategories]
 advancedFormatting = "تنسيق متقدم"
+ai = "AI"
 automation = "أتمتة"
 developerTools = "أدوات المطوّر"
 documentReview = "مراجعة المستند"
@@ -11335,8 +11350,11 @@ columnDefault = "العمود {{index}}"
 convertToPdf = "التحويل إلى PDF"
 csvStats = "{{rows}} صفوف · {{columns}} أعمدة · {{size}}"
 emptyFile = "ملف فارغ"
+htmlHidePreview = "Hide preview"
 htmlPreview = "معاينة HTML"
+htmlPreviewMobileHidden = "HTML pages are laid out for desktop widths, so the preview is off by default here."
 htmlPreviewWarning = "معاينة HTML — قد لا يتم تحميل الموارد الخارجية · {{size}}"
+htmlShowPreview = "Show preview anyway"
 invalidJson = "JSON غير صالح — عرض المحتوى الخام"
 lineNumbers = "أرقام الأسطر"
 loading = "جارٍ التحميل..."
@@ -11683,6 +11701,7 @@ exportAll = "تصدير PDF"
 exportSelected = "تصدير الصفحات المحددة"
 formFill = "تعبئة النموذج"
 hideToolbar = "Hide toolbar"
+moreActions = "More actions"
 multiTool = "الأداة المتعددة"
 panMode = "وضع التحريك"
 print = "طباعة PDF"
@@ -11703,6 +11722,8 @@ selectAll = "تحديد الكل"
 selectByNumber = "تحديد حسب أرقام الصفحات"
 selectLanguage = "اختر اللغة"
 share = "مشاركة"
+showAllTools = "Show all tools"
+showFewerTools = "Collapse toolbar"
 showToolbar = "Show toolbar"
 toggleAnnotations = "تبديل ظهور الشروح"
 toggleAttachments = "تبديل عرض المرفقات"

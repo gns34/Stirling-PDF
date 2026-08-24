@@ -3969,6 +3969,7 @@ back = "Quay lại"
 backToFolder = "Quay lại {{folder}}"
 backToMyFiles = "Quay lại Tệp của tôi"
 breadcrumbs = "Đường dẫn thư mục"
+bulkActions = "Actions"
 cancel = "Hủy"
 classification = "Phân loại"
 clearSelection = "Bỏ chọn"
@@ -4142,6 +4143,11 @@ totalSize = "Tổng kích thước"
 type = "Loại"
 versionHistory = "Hành trình phiên bản"
 
+[filesPage.filters]
+activeCount = "{{count}} filters active"
+clearAll = "Clear filters"
+label = "Filters"
+
 [filesPage.folderName]
 cancel = "Hủy"
 error = "Không thể lưu thư mục. Hãy thử lại."
@@ -4176,6 +4182,7 @@ label = "Filter files by name"
 placeholder = "Filter files…"
 
 [filesPage.sort]
+label = "Sort files"
 modifiedAsc = "Cũ nhất trước"
 modifiedDesc = "Gần đây trước"
 nameAsc = "Tên A→Z"
@@ -4584,6 +4591,10 @@ title = "Thay đổi Metadata"
 desc = "Thay đổi hạn chế và quyền của tài liệu"
 tags = "permissions,restrictions,rights,access control,allow,deny,printing,copying,editing,modify permissions,security settings,user rights"
 title = "Thay đổi quyền"
+
+[home.classify]
+desc = "Identify what kind of document this is and tag it."
+title = "Classify"
 
 [home.compare]
 desc = "So sánh và hiển thị sự khác biệt giữa 2 tài liệu PDF"
@@ -9696,7 +9707,9 @@ toolNotAvailableLocally = "Máy chủ Stirling-PDF của bạn đang ngoại tuy
 expired = "Phiên của bạn đã hết hạn. Vui lòng làm mới trang và thử lại."
 
 [settings]
+backToSections = "All settings"
 close = "Đóng"
+title = "Settings"
 
 [settings.ai]
 documents = "Tài liệu & RAG"
@@ -10635,6 +10648,7 @@ ariaLabel = "Super search"
 filtersAriaLabel = "Search filters"
 hint = "Type to search"
 placeholder = "Search Stirling"
+placeholderShort = "Search"
 showLess = "Show less"
 showMore = "Show {{count}} more"
 
@@ -10831,6 +10845,7 @@ searchPlaceholder = "Tìm kiếm công cụ..."
 
 [toolPicker.subcategories]
 advancedFormatting = "Định dạng nâng cao"
+ai = "AI"
 automation = "Tự động hóa"
 developerTools = "Công cụ nhà phát triển"
 documentReview = "Xem xét tài liệu"
@@ -11335,8 +11350,11 @@ columnDefault = "Cột {{index}}"
 convertToPdf = "Chuyển thành PDF"
 csvStats = "{{rows}} hàng · {{columns}} cột · {{size}}"
 emptyFile = "Tệp trống"
+htmlHidePreview = "Hide preview"
 htmlPreview = "Xem trước HTML"
+htmlPreviewMobileHidden = "HTML pages are laid out for desktop widths, so the preview is off by default here."
 htmlPreviewWarning = "Xem trước HTML — tài nguyên bên ngoài có thể không tải · {{size}}"
+htmlShowPreview = "Show preview anyway"
 invalidJson = "JSON không hợp lệ — đang hiển thị nội dung thô"
 lineNumbers = "Đánh số dòng"
 loading = "Đang tải..."
@@ -11683,6 +11701,7 @@ exportAll = "Xuất PDF"
 exportSelected = "Xuất các trang đã chọn"
 formFill = "Điền biểu mẫu"
 hideToolbar = "Hide toolbar"
+moreActions = "More actions"
 multiTool = "Công cụ đa năng"
 panMode = "Chế độ di chuyển"
 print = "In PDF"
@@ -11703,6 +11722,8 @@ selectAll = "Chọn tất cả"
 selectByNumber = "Chọn theo số trang"
 selectLanguage = "Chọn ngôn ngữ"
 share = "Chia sẻ"
+showAllTools = "Show all tools"
+showFewerTools = "Collapse toolbar"
 showToolbar = "Show toolbar"
 toggleAnnotations = "Bật/Tắt hiển thị chú thích"
 toggleAttachments = "Bật/Tắt tệp đính kèm"

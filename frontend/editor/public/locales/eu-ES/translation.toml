@@ -3969,6 +3969,7 @@ back = "Atzera"
 backToFolder = "Itzuli hona: {{folder}}"
 backToMyFiles = "Itzuli Nire Fitxategietara"
 breadcrumbs = "Karpetaren bidea"
+bulkActions = "Actions"
 cancel = "Utzi"
 classification = "Sailkapena"
 clearSelection = "Garbitu hautapena"
@@ -4142,6 +4143,11 @@ totalSize = "Tamaina osoa"
 type = "Mota"
 versionHistory = "Bertsioen ibilbidea"
 
+[filesPage.filters]
+activeCount = "{{count}} filters active"
+clearAll = "Clear filters"
+label = "Filters"
+
 [filesPage.folderName]
 cancel = "Utzi"
 error = "Ezin izan da karpeta gorde. Saiatu berriro."
@@ -4176,6 +4182,7 @@ label = "Filter files by name"
 placeholder = "Filter files…"
 
 [filesPage.sort]
+label = "Sort files"
 modifiedAsc = "Zaharrenak lehenik"
 modifiedDesc = "Berrienak lehenik"
 nameAsc = "Izena A→Z"
@@ -4584,6 +4591,10 @@ title = "Aldatu metadatuak"
 desc = "Aldatu dokumentuaren murrizketak eta baimenak"
 tags = "permissions,restrictions,rights,access control,allow,deny,printing,copying,editing,modify permissions,security settings,user rights"
 title = "Aldatu baimenak"
+
+[home.classify]
+desc = "Identify what kind of document this is and tag it."
+title = "Classify"
 
 [home.compare]
 desc = "Konparatu eta erakutsi 2 PDF dokumenturen aldeak"
@@ -9696,7 +9707,9 @@ toolNotAvailableLocally = "Zure Stirling-PDF zerbitzaria lineaz kanpo dago eta \
 expired = "Zure saioa iraungi da. Freskatu orria eta saiatu berriro."
 
 [settings]
+backToSections = "All settings"
 close = "Itxi"
+title = "Settings"
 
 [settings.ai]
 documents = "Dokumentuak eta RAG"
@@ -10635,6 +10648,7 @@ ariaLabel = "Super search"
 filtersAriaLabel = "Search filters"
 hint = "Type to search"
 placeholder = "Search Stirling"
+placeholderShort = "Search"
 showLess = "Show less"
 showMore = "Show {{count}} more"
 
@@ -10831,6 +10845,7 @@ searchPlaceholder = "Bilatu tresnak..."
 
 [toolPicker.subcategories]
 advancedFormatting = "Formateatze aurreratua"
+ai = "AI"
 automation = "Automatizazioa"
 developerTools = "Garatzaileentzako tresnak"
 documentReview = "Dokumentu-berrikuspena"
@@ -11335,8 +11350,11 @@ columnDefault = "{{index}}. zutabea"
 convertToPdf = "Bihurtu PDFra"
 csvStats = "{{rows}} errenkada · {{columns}} zutabe · {{size}}"
 emptyFile = "Fitxategi hutsa"
+htmlHidePreview = "Hide preview"
 htmlPreview = "HTML aurrebista"
+htmlPreviewMobileHidden = "HTML pages are laid out for desktop widths, so the preview is off by default here."
 htmlPreviewWarning = "HTML aurrebista — kanpoko baliabideak agian ez dira kargatuko · {{size}}"
+htmlShowPreview = "Show preview anyway"
 invalidJson = "JSON baliogabea — edukia gordinean erakusten"
 lineNumbers = "Lerro-zenbakiak"
 loading = "Kargatzen..."
@@ -11683,6 +11701,7 @@ exportAll = "Esportatu PDFa"
 exportSelected = "Esportatu hautatutako orriak"
 formFill = "Bete inprimakia"
 hideToolbar = "Hide toolbar"
+moreActions = "More actions"
 multiTool = "Multi-tresna"
 panMode = "Pan modua"
 print = "Inprimatu PDFa"
@@ -11703,6 +11722,8 @@ selectAll = "Hautatu dena"
 selectByNumber = "Hautatu orri-zenbakien arabera"
 selectLanguage = "Hautatu hizkuntza"
 share = "Partekatu"
+showAllTools = "Show all tools"
+showFewerTools = "Collapse toolbar"
 showToolbar = "Show toolbar"
 toggleAnnotations = "Txandakatu anotazioen ikusgarritasuna"
 toggleAttachments = "Txandakatu eranskinak"

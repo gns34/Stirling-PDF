@@ -3969,6 +3969,7 @@ back = "Πίσω"
 backToFolder = "Πίσω στον φάκελο {{folder}}"
 backToMyFiles = "Πίσω στα Αρχεία μου"
 breadcrumbs = "Διαδρομή φακέλου"
+bulkActions = "Actions"
 cancel = "Άκυρο"
 classification = "Ταξινόμηση"
 clearSelection = "Εκκαθάριση επιλογής"
@@ -4142,6 +4143,11 @@ totalSize = "Συνολικό μέγεθος"
 type = "Τύπος"
 versionHistory = "Πορεία εκδόσεων"
 
+[filesPage.filters]
+activeCount = "{{count}} filters active"
+clearAll = "Clear filters"
+label = "Filters"
+
 [filesPage.folderName]
 cancel = "Άκυρο"
 error = "Δεν ήταν δυνατή η αποθήκευση του φακέλου. Δοκιμάστε ξανά."
@@ -4176,6 +4182,7 @@ label = "Filter files by name"
 placeholder = "Filter files…"
 
 [filesPage.sort]
+label = "Sort files"
 modifiedAsc = "Παλαιότερα πρώτα"
 modifiedDesc = "Πιο πρόσφατα πρώτα"
 nameAsc = "Όνομα A→Z"
@@ -4584,6 +4591,10 @@ title = "Αλλαγή μεταδεδομένων"
 desc = "Αλλαγή περιορισμών και δικαιωμάτων εγγράφου"
 tags = "permissions,restrictions,rights,access control,allow,deny,printing,copying,editing,modify permissions,security settings,user rights"
 title = "Αλλαγή δικαιωμάτων"
+
+[home.classify]
+desc = "Identify what kind of document this is and tag it."
+title = "Classify"
 
 [home.compare]
 desc = "Σύγκριση και εμφάνιση διαφορών μεταξύ 2 εγγράφων PDF"
@@ -9696,7 +9707,9 @@ toolNotAvailableLocally = "Ο διακομιστής σας Stirling-PDF είν�
 expired = "Η συνεδρία σας έληξε. Παρακαλώ ανανεώστε τη σελίδα και προσπαθήστε ξανά."
 
 [settings]
+backToSections = "All settings"
 close = "Κλείσιμο"
+title = "Settings"
 
 [settings.ai]
 documents = "Έγγραφα & RAG"
@@ -10635,6 +10648,7 @@ ariaLabel = "Super search"
 filtersAriaLabel = "Search filters"
 hint = "Type to search"
 placeholder = "Search Stirling"
+placeholderShort = "Search"
 showLess = "Show less"
 showMore = "Show {{count}} more"
 
@@ -10831,6 +10845,7 @@ searchPlaceholder = "Αναζήτηση εργαλείων..."
 
 [toolPicker.subcategories]
 advancedFormatting = "Προχωρημένη μορφοποίηση"
+ai = "AI"
 automation = "Αυτοματοποίηση"
 developerTools = "Εργαλεία προγραμματιστή"
 documentReview = "Έλεγχος εγγράφου"
@@ -11335,8 +11350,11 @@ columnDefault = "Στήλη {{index}}"
 convertToPdf = "Μετατροπή σε PDF"
 csvStats = "{{rows}} γραμμές · {{columns}} στήλες · {{size}}"
 emptyFile = "Κενό αρχείο"
+htmlHidePreview = "Hide preview"
 htmlPreview = "Προεπισκόπηση HTML"
+htmlPreviewMobileHidden = "HTML pages are laid out for desktop widths, so the preview is off by default here."
 htmlPreviewWarning = "Προεπισκόπηση HTML — ενδέχεται να μη φορτωθούν εξωτερικοί πόροι · {{size}}"
+htmlShowPreview = "Show preview anyway"
 invalidJson = "Μη έγκυρο JSON — εμφάνιση ακατέργαστου περιεχομένου"
 lineNumbers = "Αριθμοί γραμμών"
 loading = "Φόρτωση..."
@@ -11683,6 +11701,7 @@ exportAll = "Εξαγωγή PDF"
 exportSelected = "Εξαγωγή επιλεγμένων σελίδων"
 formFill = "Συμπλήρωση φόρμας"
 hideToolbar = "Hide toolbar"
+moreActions = "More actions"
 multiTool = "Πολυεργαλείο"
 panMode = "Λειτουργία μετακίνησης"
 print = "Εκτύπωση PDF"
@@ -11703,6 +11722,8 @@ selectAll = "Επιλογή όλων"
 selectByNumber = "Επιλογή βάσει αριθμών σελίδων"
 selectLanguage = "Επιλέξτε γλώσσα"
 share = "Κοινή χρήση"
+showAllTools = "Show all tools"
+showFewerTools = "Collapse toolbar"
 showToolbar = "Show toolbar"
 toggleAnnotations = "Εναλλαγή ορατότητας σχολιασμών"
 toggleAttachments = "Εναλλαγή συνημμένων"

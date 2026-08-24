@@ -3969,6 +3969,7 @@ back = "Vissza"
 backToFolder = "Vissza ide: {{folder}}"
 backToMyFiles = "Vissza a Saját fájlokhoz"
 breadcrumbs = "Mappaútvonal"
+bulkActions = "Actions"
 cancel = "Mégse"
 classification = "Besorolás"
 clearSelection = "Kijelölés törlése"
@@ -4142,6 +4143,11 @@ totalSize = "Teljes méret"
 type = "Típus"
 versionHistory = "Verziótörténet"
 
+[filesPage.filters]
+activeCount = "{{count}} filters active"
+clearAll = "Clear filters"
+label = "Filters"
+
 [filesPage.folderName]
 cancel = "Mégse"
 error = "A mappát nem sikerült menteni. Próbálja újra."
@@ -4176,6 +4182,7 @@ label = "Filter files by name"
 placeholder = "Filter files…"
 
 [filesPage.sort]
+label = "Sort files"
 modifiedAsc = "Legrégebbi elöl"
 modifiedDesc = "Legújabb elöl"
 nameAsc = "Név A→Z"
@@ -4584,6 +4591,10 @@ title = "Metaadatok módosítása"
 desc = "Dokumentumkorlátozások és jogosultságok módosítása"
 tags = "permissions,restrictions,rights,access control,allow,deny,printing,copying,editing,modify permissions,security settings,user rights"
 title = "Jogosultságok módosítása"
+
+[home.classify]
+desc = "Identify what kind of document this is and tag it."
+title = "Classify"
 
 [home.compare]
 desc = "Két PDF dokumentum összehasonlítása és különbségek megjelenítése"
@@ -9696,7 +9707,9 @@ toolNotAvailableLocally = "A Stirling-PDF szervere offline, és a(z) \"{{endpoin
 expired = "A munkamenet lejárt. Kérjük, frissítse az oldalt és próbálja újra."
 
 [settings]
+backToSections = "All settings"
 close = "Bezárás"
+title = "Settings"
 
 [settings.ai]
 documents = "Dokumentumok és RAG"
@@ -10635,6 +10648,7 @@ ariaLabel = "Super search"
 filtersAriaLabel = "Search filters"
 hint = "Type to search"
 placeholder = "Search Stirling"
+placeholderShort = "Search"
 showLess = "Show less"
 showMore = "Show {{count}} more"
 
@@ -10831,6 +10845,7 @@ searchPlaceholder = "Eszközök keresése..."
 
 [toolPicker.subcategories]
 advancedFormatting = "Speciális formázás"
+ai = "AI"
 automation = "Automatizálás"
 developerTools = "Fejlesztői eszközök"
 documentReview = "Dokumentum-áttekintés"
@@ -11335,8 +11350,11 @@ columnDefault = "{{index}}. oszlop"
 convertToPdf = "Konvertálás PDF-be"
 csvStats = "{{rows}} sor · {{columns}} oszlop · {{size}}"
 emptyFile = "Üres fájl"
+htmlHidePreview = "Hide preview"
 htmlPreview = "HTML előnézet"
+htmlPreviewMobileHidden = "HTML pages are laid out for desktop widths, so the preview is off by default here."
 htmlPreviewWarning = "HTML előnézet — a külső erőforrások nem biztos, hogy betöltődnek · {{size}}"
+htmlShowPreview = "Show preview anyway"
 invalidJson = "Érvénytelen JSON — nyers tartalom megjelenítése"
 lineNumbers = "Sorszámok"
 loading = "Betöltés..."
@@ -11683,6 +11701,7 @@ exportAll = "PDF exportálása"
 exportSelected = "Kijelölt oldalak exportálása"
 formFill = "Űrlap kitöltése"
 hideToolbar = "Hide toolbar"
+moreActions = "More actions"
 multiTool = "Többfunkciós eszköz"
 panMode = "Mozgatás mód"
 print = "PDF nyomtatása"
@@ -11703,6 +11722,8 @@ selectAll = "Összes kijelölése"
 selectByNumber = "Kiválasztás oldalszámok szerint"
 selectLanguage = "Nyelv kiválasztása"
 share = "Megosztás"
+showAllTools = "Show all tools"
+showFewerTools = "Collapse toolbar"
 showToolbar = "Show toolbar"
 toggleAnnotations = "Annotációk láthatóságának be-/kikapcsolása"
 toggleAttachments = "Mellékletek be-/kikapcsolása"

@@ -3969,6 +3969,7 @@ back = "Geri"
 backToFolder = "{{folder}} qovluğuna geri"
 backToMyFiles = "Mənim Fayllarıma geri"
 breadcrumbs = "Qovluq yolu"
+bulkActions = "Actions"
 cancel = "Ləğv et"
 classification = "Təsnifat"
 clearSelection = "Seçimi təmizlə"
@@ -4142,6 +4143,11 @@ totalSize = "Ümumi ölçü"
 type = "Növ"
 versionHistory = "Versiya yolu"
 
+[filesPage.filters]
+activeCount = "{{count}} filters active"
+clearAll = "Clear filters"
+label = "Filters"
+
 [filesPage.folderName]
 cancel = "Ləğv et"
 error = "Qovluğu saxlamaq mümkün olmadı. Yenidən cəhd edin."
@@ -4176,6 +4182,7 @@ label = "Filter files by name"
 placeholder = "Filter files…"
 
 [filesPage.sort]
+label = "Sort files"
 modifiedAsc = "Ən köhnə əvvəlcə"
 modifiedDesc = "Ən yenilər əvvəlcə"
 nameAsc = "Ad A→Z"
@@ -4584,6 +4591,10 @@ title = "Metadatanı Dəyiş"
 desc = "Sənəd məhdudiyyətlərini və icazələrini dəyişin"
 tags = "permissions,restrictions,rights,access control,allow,deny,printing,copying,editing,modify permissions,security settings,user rights"
 title = "İcazələri Dəyişdir"
+
+[home.classify]
+desc = "Identify what kind of document this is and tag it."
+title = "Classify"
 
 [home.compare]
 desc = "2 PDF Sənədini müqayisə edir və fərqləri göstərir"
@@ -9696,7 +9707,9 @@ toolNotAvailableLocally = "Sizin Stirling-PDF serveriniz oflayndır və \"{{endp
 expired = "Sessiyanızın vaxtı bitdi. Səhifəni yeniləyin və yenidən cəhd edin."
 
 [settings]
+backToSections = "All settings"
 close = "Bağla"
+title = "Settings"
 
 [settings.ai]
 documents = "Sənədlər və RAG"
@@ -10635,6 +10648,7 @@ ariaLabel = "Super search"
 filtersAriaLabel = "Search filters"
 hint = "Type to search"
 placeholder = "Search Stirling"
+placeholderShort = "Search"
 showLess = "Show less"
 showMore = "Show {{count}} more"
 
@@ -10831,6 +10845,7 @@ searchPlaceholder = "Alətlərdə axtar..."
 
 [toolPicker.subcategories]
 advancedFormatting = "Qabaqcıl Formatlama"
+ai = "AI"
 automation = "Avtomatlaşdırma"
 developerTools = "Tərtibatçı Alətləri"
 documentReview = "Sənəd Baxışı"
@@ -11335,8 +11350,11 @@ columnDefault = "Sütun {{index}}"
 convertToPdf = "PDF-ə çevir"
 csvStats = "{{rows}} sətir · {{columns}} sütun · {{size}}"
 emptyFile = "Boş fayl"
+htmlHidePreview = "Hide preview"
 htmlPreview = "HTML ön baxış"
+htmlPreviewMobileHidden = "HTML pages are laid out for desktop widths, so the preview is off by default here."
 htmlPreviewWarning = "HTML ön baxış — xarici resurslar yüklənməyə bilər · {{size}}"
+htmlShowPreview = "Show preview anyway"
 invalidJson = "Etibarsız JSON — xam məzmun göstərilir"
 lineNumbers = "Sətir nömrələri"
 loading = "Yüklənir..."
@@ -11683,6 +11701,7 @@ exportAll = "PDF-i ixrac et"
 exportSelected = "Seçilmiş səhifələri ixrac et"
 formFill = "Formu doldur"
 hideToolbar = "Hide toolbar"
+moreActions = "More actions"
 multiTool = "Çoxfunksiyalı alət"
 panMode = "Sürüşdürmə rejimi"
 print = "PDF-i çap et"
@@ -11703,6 +11722,8 @@ selectAll = "Hamısını seç"
 selectByNumber = "Səhifə nömrələrinə görə seç"
 selectLanguage = "Dili seçin"
 share = "Paylaş"
+showAllTools = "Show all tools"
+showFewerTools = "Collapse toolbar"
 showToolbar = "Show toolbar"
 toggleAnnotations = "Annotasiyaların görünməsini dəyiş"
 toggleAttachments = "Qoşmaları aç/bağla"

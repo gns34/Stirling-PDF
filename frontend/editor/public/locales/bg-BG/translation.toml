@@ -3969,6 +3969,7 @@ back = "Назад"
 backToFolder = "Назад към {{folder}}"
 backToMyFiles = "Назад към Моите файлове"
 breadcrumbs = "Път на папката"
+bulkActions = "Actions"
 cancel = "Отказ"
 classification = "Класификация"
 clearSelection = "Изчистете избора"
@@ -4142,6 +4143,11 @@ totalSize = "Общ размер"
 type = "Тип"
 versionHistory = "Път на версиите"
 
+[filesPage.filters]
+activeCount = "{{count}} filters active"
+clearAll = "Clear filters"
+label = "Filters"
+
 [filesPage.folderName]
 cancel = "Отказ"
 error = "Папката не можа да бъде записана. Опитайте отново."
@@ -4176,6 +4182,7 @@ label = "Filter files by name"
 placeholder = "Filter files…"
 
 [filesPage.sort]
+label = "Sort files"
 modifiedAsc = "Най-старите първо"
 modifiedDesc = "Най-новите първо"
 nameAsc = "Име A→Z"
@@ -4584,6 +4591,10 @@ title = "Промяна на метаданни"
 desc = "Промяна на ограниченията и разрешенията на документа"
 tags = "permissions,restrictions,rights,access control,allow,deny,printing,copying,editing,modify permissions,security settings,user rights"
 title = "Промяна на правата"
+
+[home.classify]
+desc = "Identify what kind of document this is and tag it."
+title = "Classify"
 
 [home.compare]
 desc = "Сравнява и показва разликите между 2 PDF документа"
@@ -9696,7 +9707,9 @@ toolNotAvailableLocally = "Вашият Stirling-PDF сървър е офлай�
 expired = "Вашата сесия е изтекла. Моля, опреснете страницата и опитайте отново."
 
 [settings]
+backToSections = "All settings"
 close = "Затворете"
+title = "Settings"
 
 [settings.ai]
 documents = "Документи и RAG"
@@ -10635,6 +10648,7 @@ ariaLabel = "Super search"
 filtersAriaLabel = "Search filters"
 hint = "Type to search"
 placeholder = "Search Stirling"
+placeholderShort = "Search"
 showLess = "Show less"
 showMore = "Show {{count}} more"
 
@@ -10831,6 +10845,7 @@ searchPlaceholder = "Търсене на инструменти..."
 
 [toolPicker.subcategories]
 advancedFormatting = "Разширено форматиране"
+ai = "AI"
 automation = "Автоматизация"
 developerTools = "Инструменти за разработчици"
 documentReview = "Преглед на документ"
@@ -11335,8 +11350,11 @@ columnDefault = "Колона {{index}}"
 convertToPdf = "Конвертирай в PDF"
 csvStats = "{{rows}} реда · {{columns}} колони · {{size}}"
 emptyFile = "Празен файл"
+htmlHidePreview = "Hide preview"
 htmlPreview = "HTML визуализация"
+htmlPreviewMobileHidden = "HTML pages are laid out for desktop widths, so the preview is off by default here."
 htmlPreviewWarning = "HTML визуализация — външните ресурси може да не се заредят · {{size}}"
+htmlShowPreview = "Show preview anyway"
 invalidJson = "Невалиден JSON — показване на суровото съдържание"
 lineNumbers = "Номера на редовете"
 loading = "Зареждане..."
@@ -11683,6 +11701,7 @@ exportAll = "Експортиране на PDF"
 exportSelected = "Експортиране на избраните страници"
 formFill = "Попълване на формуляр"
 hideToolbar = "Hide toolbar"
+moreActions = "More actions"
 multiTool = "Мултиинструмент"
 panMode = "Режим на преместване"
 print = "Печат на PDF"
@@ -11703,6 +11722,8 @@ selectAll = "Избиране на всички"
 selectByNumber = "Избор по номера на страници"
 selectLanguage = "Избор на език"
 share = "Сподели"
+showAllTools = "Show all tools"
+showFewerTools = "Collapse toolbar"
 showToolbar = "Show toolbar"
 toggleAnnotations = "Превключване на видимостта на анотациите"
 toggleAttachments = "Превключване на прикачените файлове"

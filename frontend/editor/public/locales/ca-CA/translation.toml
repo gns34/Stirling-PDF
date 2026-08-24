@@ -3969,6 +3969,7 @@ back = "Enrere"
 backToFolder = "Torna a {{folder}}"
 backToMyFiles = "Torna a Els meus fitxers"
 breadcrumbs = "Ruta de la carpeta"
+bulkActions = "Actions"
 cancel = "Cancel·la"
 classification = "Classificació"
 clearSelection = "Neteja la selecció"
@@ -4142,6 +4143,11 @@ totalSize = "Mida total"
 type = "Tipus"
 versionHistory = "Recorregut de versions"
 
+[filesPage.filters]
+activeCount = "{{count}} filters active"
+clearAll = "Clear filters"
+label = "Filters"
+
 [filesPage.folderName]
 cancel = "Cancel·la"
 error = "No s'ha pogut desar la carpeta. Torna-ho a provar."
@@ -4176,6 +4182,7 @@ label = "Filter files by name"
 placeholder = "Filter files…"
 
 [filesPage.sort]
+label = "Sort files"
 modifiedAsc = "Més antic primer"
 modifiedDesc = "Més recent primer"
 nameAsc = "Nom A→Z"
@@ -4584,6 +4591,10 @@ title = "Canvia Metadades"
 desc = "Canvia les restriccions i els permisos del document"
 tags = "permissions,restrictions,rights,access control,allow,deny,printing,copying,editing,modify permissions,security settings,user rights"
 title = "Canviar Permissos"
+
+[home.classify]
+desc = "Identify what kind of document this is and tag it."
+title = "Classify"
 
 [home.compare]
 desc = "Compara i mostra les diferències entre 2 documents PDF"
@@ -9696,7 +9707,9 @@ toolNotAvailableLocally = "El teu servidor de Stirling-PDF és fora de línia i 
 expired = "La teva sessió ha expirat. Si us plau, actualitza la pàgina i torna a intentar-ho."
 
 [settings]
+backToSections = "All settings"
 close = "Tanca"
+title = "Settings"
 
 [settings.ai]
 documents = "Documents i RAG"
@@ -10635,6 +10648,7 @@ ariaLabel = "Super search"
 filtersAriaLabel = "Search filters"
 hint = "Type to search"
 placeholder = "Search Stirling"
+placeholderShort = "Search"
 showLess = "Show less"
 showMore = "Show {{count}} more"
 
@@ -10831,6 +10845,7 @@ searchPlaceholder = "Cerca eines..."
 
 [toolPicker.subcategories]
 advancedFormatting = "Formatació avançada"
+ai = "AI"
 automation = "Automatització"
 developerTools = "Eines per a desenvolupadors"
 documentReview = "Revisió del document"
@@ -11335,8 +11350,11 @@ columnDefault = "Columna {{index}}"
 convertToPdf = "Converteix a PDF"
 csvStats = "{{rows}} files · {{columns}} columnes · {{size}}"
 emptyFile = "Fitxer buit"
+htmlHidePreview = "Hide preview"
 htmlPreview = "Previsualització HTML"
+htmlPreviewMobileHidden = "HTML pages are laid out for desktop widths, so the preview is off by default here."
 htmlPreviewWarning = "Previsualització HTML — els recursos externs poden no carregar-se · {{size}}"
+htmlShowPreview = "Show preview anyway"
 invalidJson = "JSON no vàlid — es mostra el contingut en brut"
 lineNumbers = "Números de línia"
 loading = "Carregant..."
@@ -11683,6 +11701,7 @@ exportAll = "Exporta el PDF"
 exportSelected = "Exporta les pàgines seleccionades"
 formFill = "Omple el formulari"
 hideToolbar = "Hide toolbar"
+moreActions = "More actions"
 multiTool = "Eina múltiple"
 panMode = "Mode de desplaçament"
 print = "Imprimeix el PDF"
@@ -11703,6 +11722,8 @@ selectAll = "Selecciona-ho tot"
 selectByNumber = "Selecciona per números de pàgina"
 selectLanguage = "Selecciona l’idioma"
 share = "Comparteix"
+showAllTools = "Show all tools"
+showFewerTools = "Collapse toolbar"
 showToolbar = "Show toolbar"
 toggleAnnotations = "Mostra/oculta les anotacions"
 toggleAttachments = "Mostra/oculta els adjunts"

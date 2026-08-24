@@ -3969,6 +3969,7 @@ back = "Tillbaka"
 backToFolder = "Tillbaka till {{folder}}"
 backToMyFiles = "Tillbaka till Mina filer"
 breadcrumbs = "Mappsökväg"
+bulkActions = "Actions"
 cancel = "Avbryt"
 classification = "Klassificering"
 clearSelection = "Rensa markering"
@@ -4142,6 +4143,11 @@ totalSize = "Total storlek"
 type = "Typ"
 versionHistory = "Versionsresa"
 
+[filesPage.filters]
+activeCount = "{{count}} filters active"
+clearAll = "Clear filters"
+label = "Filters"
+
 [filesPage.folderName]
 cancel = "Avbryt"
 error = "Kunde inte spara mappen. Försök igen."
@@ -4176,6 +4182,7 @@ label = "Filter files by name"
 placeholder = "Filter files…"
 
 [filesPage.sort]
+label = "Sort files"
 modifiedAsc = "Äldst först"
 modifiedDesc = "Senaste först"
 nameAsc = "Namn A→Ö"
@@ -4584,6 +4591,10 @@ title = "Ändra metadata"
 desc = "Ändra dokumentrestriktioner och behörigheter"
 tags = "permissions,restrictions,rights,access control,allow,deny,printing,copying,editing,modify permissions,security settings,user rights"
 title = "Ändra behörigheter"
+
+[home.classify]
+desc = "Identify what kind of document this is and tag it."
+title = "Classify"
 
 [home.compare]
 desc = "Jämför och visar skillnaderna mellan 2 PDF-dokument"
@@ -9696,7 +9707,9 @@ toolNotAvailableLocally = "Din Stirling-PDF-server är offline och \"{{endpoint}
 expired = "Din session har löpt ut. Uppdatera sidan och försök igen."
 
 [settings]
+backToSections = "All settings"
 close = "Stäng"
+title = "Settings"
 
 [settings.ai]
 documents = "Dokument och RAG"
@@ -10635,6 +10648,7 @@ ariaLabel = "Super search"
 filtersAriaLabel = "Search filters"
 hint = "Type to search"
 placeholder = "Search Stirling"
+placeholderShort = "Search"
 showLess = "Show less"
 showMore = "Show {{count}} more"
 
@@ -10831,6 +10845,7 @@ searchPlaceholder = "Sök verktyg..."
 
 [toolPicker.subcategories]
 advancedFormatting = "Avancerad formatering"
+ai = "AI"
 automation = "Automatisering"
 developerTools = "Utvecklarverktyg"
 documentReview = "Dokumentgranskning"
@@ -11335,8 +11350,11 @@ columnDefault = "Kolumn {{index}}"
 convertToPdf = "Konvertera till PDF"
 csvStats = "{{rows}} rader · {{columns}} kolumner · {{size}}"
 emptyFile = "Tom fil"
+htmlHidePreview = "Hide preview"
 htmlPreview = "HTML-förhandsvisning"
+htmlPreviewMobileHidden = "HTML pages are laid out for desktop widths, so the preview is off by default here."
 htmlPreviewWarning = "HTML-förhandsvisning — externa resurser kanske inte läses in · {{size}}"
+htmlShowPreview = "Show preview anyway"
 invalidJson = "Ogiltig JSON — visar rått innehåll"
 lineNumbers = "Radnummer"
 loading = "Läser in..."
@@ -11683,6 +11701,7 @@ exportAll = "Exportera PDF"
 exportSelected = "Exportera valda sidor"
 formFill = "Fyll i formulär"
 hideToolbar = "Hide toolbar"
+moreActions = "More actions"
 multiTool = "Multiverktyg"
 panMode = "Panoreringsläge"
 print = "Skriv ut PDF"
@@ -11703,6 +11722,8 @@ selectAll = "Markera alla"
 selectByNumber = "Markera efter sidnummer"
 selectLanguage = "Välj språk"
 share = "Dela"
+showAllTools = "Show all tools"
+showFewerTools = "Collapse toolbar"
 showToolbar = "Show toolbar"
 toggleAnnotations = "Visa/dölj anteckningar"
 toggleAttachments = "Visa/dölj bilagor"

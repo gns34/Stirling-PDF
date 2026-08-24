@@ -3969,6 +3969,7 @@ back = "返回"
 backToFolder = "返回 {{folder}}"
 backToMyFiles = "返回“我的文件”"
 breadcrumbs = "文件夹路径"
+bulkActions = "Actions"
 cancel = "取消"
 classification = "分类"
 clearSelection = "清除选择"
@@ -4142,6 +4143,11 @@ totalSize = "总大小"
 type = "类型"
 versionHistory = "版本历程"
 
+[filesPage.filters]
+activeCount = "{{count}} filters active"
+clearAll = "Clear filters"
+label = "Filters"
+
 [filesPage.folderName]
 cancel = "取消"
 error = "无法保存文件夹。请重试。"
@@ -4176,6 +4182,7 @@ label = "Filter files by name"
 placeholder = "Filter files…"
 
 [filesPage.sort]
+label = "Sort files"
 modifiedAsc = "最早优先"
 modifiedDesc = "最新优先"
 nameAsc = "名称 A→Z"
@@ -4584,6 +4591,10 @@ title = "更改元数据"
 desc = "更改文档限制与权限"
 tags = "permissions,restrictions,rights,access control,allow,deny,printing,copying,editing,modify permissions,security settings,user rights"
 title = "更改权限"
+
+[home.classify]
+desc = "Identify what kind of document this is and tag it."
+title = "Classify"
 
 [home.compare]
 desc = "比较并显示两个 PDF 文档之间的差异"
@@ -9696,7 +9707,9 @@ toolNotAvailableLocally = "您的 Stirling-PDF 服务器处于离线状态，且
 expired = "您的会话已过期。请刷新页面并重试。"
 
 [settings]
+backToSections = "All settings"
 close = "关闭"
+title = "Settings"
 
 [settings.ai]
 documents = "文档与 RAG"
@@ -10635,6 +10648,7 @@ ariaLabel = "Super search"
 filtersAriaLabel = "Search filters"
 hint = "Type to search"
 placeholder = "Search Stirling"
+placeholderShort = "Search"
 showLess = "Show less"
 showMore = "Show {{count}} more"
 
@@ -10831,6 +10845,7 @@ searchPlaceholder = "搜索工具…"
 
 [toolPicker.subcategories]
 advancedFormatting = "高级排版"
+ai = "AI"
 automation = "自动化"
 developerTools = "开发者工具"
 documentReview = "文档审阅"
@@ -11335,8 +11350,11 @@ columnDefault = "列 {{index}}"
 convertToPdf = "转换为 PDF"
 csvStats = "{{rows}} 行 · {{columns}} 列 · {{size}}"
 emptyFile = "空文件"
+htmlHidePreview = "Hide preview"
 htmlPreview = "HTML 预览"
+htmlPreviewMobileHidden = "HTML pages are laid out for desktop widths, so the preview is off by default here."
 htmlPreviewWarning = "HTML 预览 — 外部资源可能无法加载 · {{size}}"
+htmlShowPreview = "Show preview anyway"
 invalidJson = "无效的 JSON — 显示原始内容"
 lineNumbers = "行号"
 loading = "正在加载..."
@@ -11683,6 +11701,7 @@ exportAll = "导出 PDF"
 exportSelected = "导出所选页面"
 formFill = "填写表单"
 hideToolbar = "Hide toolbar"
+moreActions = "More actions"
 multiTool = "多功能工具"
 panMode = "平移模式"
 print = "打印 PDF"
@@ -11703,6 +11722,8 @@ selectAll = "全选"
 selectByNumber = "按页码选择"
 selectLanguage = "选择语言"
 share = "共享"
+showAllTools = "Show all tools"
+showFewerTools = "Collapse toolbar"
 showToolbar = "Show toolbar"
 toggleAnnotations = "切换注释显示"
 toggleAttachments = "切换附件"

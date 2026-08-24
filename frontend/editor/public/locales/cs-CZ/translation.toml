@@ -3969,6 +3969,7 @@ back = "Zpět"
 backToFolder = "Zpět do {{folder}}"
 backToMyFiles = "Zpět na Moje soubory"
 breadcrumbs = "Cesta ke složce"
+bulkActions = "Actions"
 cancel = "Zrušit"
 classification = "Klasifikace"
 clearSelection = "Zrušit výběr"
@@ -4142,6 +4143,11 @@ totalSize = "Celková velikost"
 type = "Typ"
 versionHistory = "Vývoj verzí"
 
+[filesPage.filters]
+activeCount = "{{count}} filters active"
+clearAll = "Clear filters"
+label = "Filters"
+
 [filesPage.folderName]
 cancel = "Zrušit"
 error = "Složku se nepodařilo uložit. Zkuste to znovu."
@@ -4176,6 +4182,7 @@ label = "Filter files by name"
 placeholder = "Filter files…"
 
 [filesPage.sort]
+label = "Sort files"
 modifiedAsc = "Od nejstarších"
 modifiedDesc = "Od nejnovějších"
 nameAsc = "Název A→Z"
@@ -4584,6 +4591,10 @@ title = "Změnit metadata"
 desc = "Změnit omezení a oprávnění dokumentu"
 tags = "permissions,restrictions,rights,access control,allow,deny,printing,copying,editing,modify permissions,security settings,user rights"
 title = "Změnit oprávnění"
+
+[home.classify]
+desc = "Identify what kind of document this is and tag it."
+title = "Classify"
 
 [home.compare]
 desc = "Porovná a zobrazí rozdíly mezi 2 PDF dokumenty"
@@ -9696,7 +9707,9 @@ toolNotAvailableLocally = "Váš server Stirling-PDF je offline a \"{{endpoint}}
 expired = "Vaše relace vypršela. Obnovte prosím stránku a zkuste to znovu."
 
 [settings]
+backToSections = "All settings"
 close = "Zavřít"
+title = "Settings"
 
 [settings.ai]
 documents = "Dokumenty a RAG"
@@ -10635,6 +10648,7 @@ ariaLabel = "Super search"
 filtersAriaLabel = "Search filters"
 hint = "Type to search"
 placeholder = "Search Stirling"
+placeholderShort = "Search"
 showLess = "Show less"
 showMore = "Show {{count}} more"
 
@@ -10831,6 +10845,7 @@ searchPlaceholder = "Hledat nástroje..."
 
 [toolPicker.subcategories]
 advancedFormatting = "Pokročilé formátování"
+ai = "AI"
 automation = "Automatizace"
 developerTools = "Nástroje pro vývojáře"
 documentReview = "Kontrola dokumentu"
@@ -11335,8 +11350,11 @@ columnDefault = "Sloupec {{index}}"
 convertToPdf = "Převést do PDF"
 csvStats = "{{rows}} řádků · {{columns}} sloupců · {{size}}"
 emptyFile = "Prázdný soubor"
+htmlHidePreview = "Hide preview"
 htmlPreview = "Náhled HTML"
+htmlPreviewMobileHidden = "HTML pages are laid out for desktop widths, so the preview is off by default here."
 htmlPreviewWarning = "Náhled HTML — externí zdroje se nemusí načíst · {{size}}"
+htmlShowPreview = "Show preview anyway"
 invalidJson = "Neplatný JSON — zobrazen nezpracovaný obsah"
 lineNumbers = "Čísla řádků"
 loading = "Načítání..."
@@ -11683,6 +11701,7 @@ exportAll = "Exportovat PDF"
 exportSelected = "Exportovat vybrané stránky"
 formFill = "Vyplnit formulář"
 hideToolbar = "Hide toolbar"
+moreActions = "More actions"
 multiTool = "Multinástroj"
 panMode = "Režim posunu"
 print = "Tisk PDF"
@@ -11703,6 +11722,8 @@ selectAll = "Vybrat vše"
 selectByNumber = "Vybrat podle čísel stránek"
 selectLanguage = "Vyberte jazyk"
 share = "Sdílet"
+showAllTools = "Show all tools"
+showFewerTools = "Collapse toolbar"
 showToolbar = "Show toolbar"
 toggleAnnotations = "Přepnout viditelnost anotací"
 toggleAttachments = "Přepnout přílohy"

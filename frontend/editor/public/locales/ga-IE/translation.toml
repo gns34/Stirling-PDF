@@ -3969,6 +3969,7 @@ back = "Ar ais"
 backToFolder = "Ar ais go {{folder}}"
 backToMyFiles = "Ar ais go Mo Chomhaid"
 breadcrumbs = "Conair an fhillteáin"
+bulkActions = "Actions"
 cancel = "Cealaigh"
 classification = "Aicmiú"
 clearSelection = "Glan an roghnú"
@@ -4142,6 +4143,11 @@ totalSize = "Méid iomlán"
 type = "Cineál"
 versionHistory = "Turas an leagain"
 
+[filesPage.filters]
+activeCount = "{{count}} filters active"
+clearAll = "Clear filters"
+label = "Filters"
+
 [filesPage.folderName]
 cancel = "Cealaigh"
 error = "Níorbh fhéidir an fillteán a shábháil. Bain triail eile as."
@@ -4176,6 +4182,7 @@ label = "Filter files by name"
 placeholder = "Filter files…"
 
 [filesPage.sort]
+label = "Sort files"
 modifiedAsc = "Is sine ar dtús"
 modifiedDesc = "Is nua ar dtús"
 nameAsc = "Ainm A→Z"
@@ -4584,6 +4591,10 @@ title = "Athraigh Meiteashonraí"
 desc = "Athraigh srianta agus ceadanna cáipéise"
 tags = "permissions,restrictions,rights,access control,allow,deny,printing,copying,editing,modify permissions,security settings,user rights"
 title = "Athrú Ceadanna"
+
+[home.classify]
+desc = "Identify what kind of document this is and tag it."
+title = "Classify"
 
 [home.compare]
 desc = "Déanann sé na difríochtaí idir 2 Dhoiciméad PDF a chur i gcomparáid agus a thaispeáint"
@@ -9696,7 +9707,9 @@ toolNotAvailableLocally = "Tá do fhreastalaí Stirling-PDF as líne agus níl \
 expired = "Tá do sheisiún imithe in éag. Athnuaigh an leathanach agus bain triail eile as."
 
 [settings]
+backToSections = "All settings"
 close = "Dún"
+title = "Settings"
 
 [settings.ai]
 documents = "Doiciméid & RAG"
@@ -10635,6 +10648,7 @@ ariaLabel = "Super search"
 filtersAriaLabel = "Search filters"
 hint = "Type to search"
 placeholder = "Search Stirling"
+placeholderShort = "Search"
 showLess = "Show less"
 showMore = "Show {{count}} more"
 
@@ -10831,6 +10845,7 @@ searchPlaceholder = "Cuardaigh uirlisí..."
 
 [toolPicker.subcategories]
 advancedFormatting = "Formáidiú Casta"
+ai = "AI"
 automation = "Uathoibriú"
 developerTools = "Uirlisí Forbróra"
 documentReview = "Athbhreithniú Doiciméid"
@@ -11335,8 +11350,11 @@ columnDefault = "Colún {{index}}"
 convertToPdf = "Tiontaigh go PDF"
 csvStats = "{{rows}} sraith · {{columns}} colún · {{size}}"
 emptyFile = "Comhad folamh"
+htmlHidePreview = "Hide preview"
 htmlPreview = "Réamhamharc HTML"
+htmlPreviewMobileHidden = "HTML pages are laid out for desktop widths, so the preview is off by default here."
 htmlPreviewWarning = "Réamhamharc HTML — seans nach lódálfar acmhainní seachtracha · {{size}}"
+htmlShowPreview = "Show preview anyway"
 invalidJson = "JSON neamhbhailí — á thaispeáint amh"
 lineNumbers = "Uimhreacha línte"
 loading = "Á lódáil..."
@@ -11683,6 +11701,7 @@ exportAll = "Easpórtáil PDF"
 exportSelected = "Easpórtáil na leathanaigh roghnaithe"
 formFill = "Líon foirm"
 hideToolbar = "Hide toolbar"
+moreActions = "More actions"
 multiTool = "Il-uirlis"
 panMode = "Mód pánála"
 print = "Priontáil PDF"
@@ -11703,6 +11722,8 @@ selectAll = "Roghnaigh uile"
 selectByNumber = "Roghnaigh de réir uimhreacha leathanaigh"
 selectLanguage = "Roghnaigh teanga"
 share = "Roinn"
+showAllTools = "Show all tools"
+showFewerTools = "Collapse toolbar"
 showToolbar = "Show toolbar"
 toggleAnnotations = "Scoránaigh infheictheacht na n-anótálacha"
 toggleAttachments = "Scoránaigh iatáin"

@@ -3969,6 +3969,7 @@ back = "Zurück"
 backToFolder = "Zurück zu {{folder}}"
 backToMyFiles = "Zurück zu Meine Dateien"
 breadcrumbs = "Ordnerpfad"
+bulkActions = "Actions"
 cancel = "Abbrechen"
 classification = "Klassifizierung"
 clearSelection = "Auswahl aufheben"
@@ -4142,6 +4143,11 @@ totalSize = "Gesamtgröße"
 type = "Typ"
 versionHistory = "Versionsverlauf"
 
+[filesPage.filters]
+activeCount = "{{count}} filters active"
+clearAll = "Clear filters"
+label = "Filters"
+
 [filesPage.folderName]
 cancel = "Abbrechen"
 error = "Ordner konnte nicht gespeichert werden. Versuchen Sie es erneut."
@@ -4176,6 +4182,7 @@ label = "Filter files by name"
 placeholder = "Filter files…"
 
 [filesPage.sort]
+label = "Sort files"
 modifiedAsc = "Älteste zuerst"
 modifiedDesc = "Neueste zuerst"
 nameAsc = "Name A→Z"
@@ -4584,6 +4591,10 @@ title = "Metadaten ändern"
 desc = "Dokumentbeschränkungen und -berechtigungen ändern"
 tags = "berechtigungen,einschränkungen,rechte,zugriffskontrolle,erlauben,verweigern,drucken,kopieren,bearbeiten,berechtigungen ändern,sicherheitseinstellungen,benutzerrechte"
 title = "Berechtigungen ändern"
+
+[home.classify]
+desc = "Identify what kind of document this is and tag it."
+title = "Classify"
 
 [home.compare]
 desc = "Vergleicht und zeigt die Unterschiede zwischen zwei PDF-Dokumenten an"
@@ -9696,7 +9707,9 @@ toolNotAvailableLocally = "Ihr Stirling-PDF-Server ist offline und „{{endpoint
 expired = "Ihre Sitzung ist abgelaufen. Bitte laden Sie die Seite neu und versuchen Sie es erneut."
 
 [settings]
+backToSections = "All settings"
 close = "Schließen"
+title = "Settings"
 
 [settings.ai]
 documents = "Dokumente & RAG"
@@ -10635,6 +10648,7 @@ ariaLabel = "Super search"
 filtersAriaLabel = "Search filters"
 hint = "Type to search"
 placeholder = "Search Stirling"
+placeholderShort = "Search"
 showLess = "Show less"
 showMore = "Show {{count}} more"
 
@@ -10831,6 +10845,7 @@ searchPlaceholder = "Werkzeuge suchen..."
 
 [toolPicker.subcategories]
 advancedFormatting = "Erweiterte Formatierung"
+ai = "AI"
 automation = "Automatisierung"
 developerTools = "Entwicklerwerkzeuge"
 documentReview = "Dokumentenprüfung"
@@ -11335,8 +11350,11 @@ columnDefault = "Spalte {{index}}"
 convertToPdf = "In PDF konvertieren"
 csvStats = "{{rows}} Zeilen · {{columns}} Spalten · {{size}}"
 emptyFile = "Leere Datei"
+htmlHidePreview = "Hide preview"
 htmlPreview = "HTML-Vorschau"
+htmlPreviewMobileHidden = "HTML pages are laid out for desktop widths, so the preview is off by default here."
 htmlPreviewWarning = "HTML-Vorschau — externe Ressourcen werden möglicherweise nicht geladen · {{size}}"
+htmlShowPreview = "Show preview anyway"
 invalidJson = "Ungültiges JSON — Rohinhalt wird angezeigt"
 lineNumbers = "Zeilennummern"
 loading = "Laden..."
@@ -11683,6 +11701,7 @@ exportAll = "PDF exportieren"
 exportSelected = "Ausgewählte Seiten exportieren"
 formFill = "Formular ausfüllen"
 hideToolbar = "Hide toolbar"
+moreActions = "More actions"
 multiTool = "Multitool"
 panMode = "Verschiebemodus"
 print = "PDF drucken"
@@ -11703,6 +11722,8 @@ selectAll = "Alle auswählen"
 selectByNumber = "Nach Seitenzahlen auswählen"
 selectLanguage = "Sprache auswählen"
 share = "Teilen"
+showAllTools = "Show all tools"
+showFewerTools = "Collapse toolbar"
 showToolbar = "Show toolbar"
 toggleAnnotations = "Anmerkungen ein-/ausblenden"
 toggleAttachments = "Anhänge ein-/ausblenden"

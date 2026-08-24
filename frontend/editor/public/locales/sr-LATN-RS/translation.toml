@@ -3969,6 +3969,7 @@ back = "Nazad"
 backToFolder = "Nazad na {{folder}}"
 backToMyFiles = "Nazad na Moje fajlove"
 breadcrumbs = "Putanja fascikle"
+bulkActions = "Actions"
 cancel = "Otkaži"
 classification = "Klasifikacija"
 clearSelection = "Poništi izbor"
@@ -4142,6 +4143,11 @@ totalSize = "Ukupna veličina"
 type = "Tip"
 versionHistory = "Istorija verzija"
 
+[filesPage.filters]
+activeCount = "{{count}} filters active"
+clearAll = "Clear filters"
+label = "Filters"
+
 [filesPage.folderName]
 cancel = "Otkaži"
 error = "Nije moguće sačuvati fasciklu. Pokušajte ponovo."
@@ -4176,6 +4182,7 @@ label = "Filter files by name"
 placeholder = "Filter files…"
 
 [filesPage.sort]
+label = "Sort files"
 modifiedAsc = "Najstarije prvo"
 modifiedDesc = "Najnovije prvo"
 nameAsc = "Naziv A→Š"
@@ -4584,6 +4591,10 @@ title = "Promena metapodataka"
 desc = "Promenite ograničenja dokumenta i dozvole"
 tags = "permissions,restrictions,rights,access control,allow,deny,printing,copying,editing,modify permissions,security settings,user rights"
 title = "Promeni dozvole"
+
+[home.classify]
+desc = "Identify what kind of document this is and tag it."
+title = "Classify"
 
 [home.compare]
 desc = "Upoređuje i prikazuje razlike između 2 PDF dokumenata"
@@ -9696,7 +9707,9 @@ toolNotAvailableLocally = "Vaš Stirling-PDF server je van mreže i \"{{endpoint
 expired = "Istekla ti je sesija. Osveži stranicu i pokušaj ponovo."
 
 [settings]
+backToSections = "All settings"
 close = "Zatvori"
+title = "Settings"
 
 [settings.ai]
 documents = "Dokumenti i RAG"
@@ -10635,6 +10648,7 @@ ariaLabel = "Super search"
 filtersAriaLabel = "Search filters"
 hint = "Type to search"
 placeholder = "Search Stirling"
+placeholderShort = "Search"
 showLess = "Show less"
 showMore = "Show {{count}} more"
 
@@ -10831,6 +10845,7 @@ searchPlaceholder = "Pretraži alate..."
 
 [toolPicker.subcategories]
 advancedFormatting = "Napredno formatiranje"
+ai = "AI"
 automation = "Automatizacija"
 developerTools = "Alati za programere"
 documentReview = "Pregled dokumenta"
@@ -11335,8 +11350,11 @@ columnDefault = "Kolona {{index}}"
 convertToPdf = "Konvertuj u PDF"
 csvStats = "{{rows}} redova · {{columns}} kolona · {{size}}"
 emptyFile = "Prazna datoteka"
+htmlHidePreview = "Hide preview"
 htmlPreview = "HTML pregled"
+htmlPreviewMobileHidden = "HTML pages are laid out for desktop widths, so the preview is off by default here."
 htmlPreviewWarning = "HTML pregled — spoljašnji resursi možda neće biti učitani · {{size}}"
+htmlShowPreview = "Show preview anyway"
 invalidJson = "Nevažeći JSON — prikaz sirovog sadržaja"
 lineNumbers = "Brojevi linija"
 loading = "Učitavanje..."
@@ -11683,6 +11701,7 @@ exportAll = "Izvezi PDF"
 exportSelected = "Izvezi izabrane stranice"
 formFill = "Popuni obrazac"
 hideToolbar = "Hide toolbar"
+moreActions = "More actions"
 multiTool = "Višenamenski alat"
 panMode = "Režim pomeranja"
 print = "Štampaj PDF"
@@ -11703,6 +11722,8 @@ selectAll = "Izaberi sve"
 selectByNumber = "Izaberi po brojevima stranica"
 selectLanguage = "Izaberi jezik"
 share = "Podeli"
+showAllTools = "Show all tools"
+showFewerTools = "Collapse toolbar"
 showToolbar = "Show toolbar"
 toggleAnnotations = "Uključi/isključi vidljivost anotacija"
 toggleAttachments = "Uključi/isključi priloge"

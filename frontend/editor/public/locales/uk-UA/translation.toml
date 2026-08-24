@@ -3969,6 +3969,7 @@ back = "Назад"
 backToFolder = "Назад до {{folder}}"
 backToMyFiles = "Назад до «Мої файли»"
 breadcrumbs = "Шлях до папки"
+bulkActions = "Actions"
 cancel = "Скасувати"
 classification = "Класифікація"
 clearSelection = "Очистити вибір"
@@ -4142,6 +4143,11 @@ totalSize = "Загальний розмір"
 type = "Тип"
 versionHistory = "Історія версій"
 
+[filesPage.filters]
+activeCount = "{{count}} filters active"
+clearAll = "Clear filters"
+label = "Filters"
+
 [filesPage.folderName]
 cancel = "Скасувати"
 error = "Не вдалося зберегти папку. Спробуйте ще раз."
@@ -4176,6 +4182,7 @@ label = "Filter files by name"
 placeholder = "Filter files…"
 
 [filesPage.sort]
+label = "Sort files"
 modifiedAsc = "Спочатку найстаріші"
 modifiedDesc = "Спочатку останні"
 nameAsc = "Назва A→Z"
@@ -4584,6 +4591,10 @@ title = "Змінити метадані"
 desc = "Змінити обмеження та дозволи документа"
 tags = "permissions,restrictions,rights,access control,allow,deny,printing,copying,editing,modify permissions,security settings,user rights"
 title = "Змінити дозволи"
+
+[home.classify]
+desc = "Identify what kind of document this is and tag it."
+title = "Classify"
 
 [home.compare]
 desc = "Порівнює та показує різницю між двома PDF-документами"
@@ -9696,7 +9707,9 @@ toolNotAvailableLocally = "Ваш сервер Stirling-PDF офлайн і \"{{
 expired = "Ваш сеанс закінчився. Будь ласка, оновіть сторінку та повторіть спробу."
 
 [settings]
+backToSections = "All settings"
 close = "Закрити"
+title = "Settings"
 
 [settings.ai]
 documents = "Документи й RAG"
@@ -10635,6 +10648,7 @@ ariaLabel = "Super search"
 filtersAriaLabel = "Search filters"
 hint = "Type to search"
 placeholder = "Search Stirling"
+placeholderShort = "Search"
 showLess = "Show less"
 showMore = "Show {{count}} more"
 
@@ -10831,6 +10845,7 @@ searchPlaceholder = "Пошук інструментів..."
 
 [toolPicker.subcategories]
 advancedFormatting = "Розширене форматування"
+ai = "AI"
 automation = "Автоматизація"
 developerTools = "Інструменти для розробників"
 documentReview = "Перегляд документа"
@@ -11335,8 +11350,11 @@ columnDefault = "Стовпець {{index}}"
 convertToPdf = "Перетворити в PDF"
 csvStats = "{{rows}} рядків · {{columns}} стовпців · {{size}}"
 emptyFile = "Порожній файл"
+htmlHidePreview = "Hide preview"
 htmlPreview = "Попередній перегляд HTML"
+htmlPreviewMobileHidden = "HTML pages are laid out for desktop widths, so the preview is off by default here."
 htmlPreviewWarning = "Попередній перегляд HTML — зовнішні ресурси можуть не завантажитися · {{size}}"
+htmlShowPreview = "Show preview anyway"
 invalidJson = "Некоректний JSON — показ вмісту як є"
 lineNumbers = "Номери рядків"
 loading = "Завантаження..."
@@ -11683,6 +11701,7 @@ exportAll = "Експортувати PDF"
 exportSelected = "Експортувати вибрані сторінки"
 formFill = "Заповнити форму"
 hideToolbar = "Hide toolbar"
+moreActions = "More actions"
 multiTool = "Мультиінструмент"
 panMode = "Режим переміщення"
 print = "Надрукувати PDF"
@@ -11703,6 +11722,8 @@ selectAll = "Вибрати все"
 selectByNumber = "Вибрати за номерами сторінок"
 selectLanguage = "Вибрати мову"
 share = "Надати спільний доступ"
+showAllTools = "Show all tools"
+showFewerTools = "Collapse toolbar"
 showToolbar = "Show toolbar"
 toggleAnnotations = "Перемкнути видимість анотацій"
 toggleAttachments = "Перемкнути вкладення"

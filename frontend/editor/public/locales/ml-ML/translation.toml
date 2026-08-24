@@ -3969,6 +3969,7 @@ back = "തിരികെ"
 backToFolder = "{{folder}} ലേക്ക് തിരികെ"
 backToMyFiles = "എന്റെ ഫയലുകളിലേക്ക് തിരികെ"
 breadcrumbs = "ഫോൾഡർ പാത"
+bulkActions = "Actions"
 cancel = "റദ്ദാക്കുക"
 classification = "വർഗ്ഗീകരണം"
 clearSelection = "തിരഞ്ഞെടുപ്പ് നീക്കുക"
@@ -4142,6 +4143,11 @@ totalSize = "ആകെ വലുപ്പം"
 type = "തരം"
 versionHistory = "വേർഷൻ യാത്ര"
 
+[filesPage.filters]
+activeCount = "{{count}} filters active"
+clearAll = "Clear filters"
+label = "Filters"
+
 [filesPage.folderName]
 cancel = "റദ്ദാക്കുക"
 error = "ഫോൾഡർ സംരക്ഷിക്കാൻ കഴിഞ്ഞില്ല. വീണ്ടും ശ്രമിക്കുക."
@@ -4176,6 +4182,7 @@ label = "Filter files by name"
 placeholder = "Filter files…"
 
 [filesPage.sort]
+label = "Sort files"
 modifiedAsc = "പഴയത് ആദ്യം"
 modifiedDesc = "പുതിയത് ആദ്യം"
 nameAsc = "പേര് A→Z"
@@ -4584,6 +4591,10 @@ title = "മെറ്റാഡാറ്റ മാറ്റുക"
 desc = "ഡോക്യുമെന്റ് നിയന്ത്രണങ്ങളും അനുമതികളും മാറ്റുക"
 tags = "permissions,restrictions,rights,access control,allow,deny,printing,copying,editing,modify permissions,security settings,user rights"
 title = "അനുമതികൾ മാറ്റുക"
+
+[home.classify]
+desc = "Identify what kind of document this is and tag it."
+title = "Classify"
 
 [home.compare]
 desc = "2 PDF പ്രമാണങ്ങൾ തമ്മിലുള്ള വ്യത്യാസങ്ങൾ താരതമ്യം ചെയ്യുകയും കാണിക്കുകയും ചെയ്യുന്നു"
@@ -9696,7 +9707,9 @@ toolNotAvailableLocally = "നിങ്ങളുടെ Stirling-PDF സെർവ
 expired = "നിങ്ങളുടെ സെഷൻ കാലഹരണപ്പെട്ടു. ദയവായി പേജ് പുതുക്കി വീണ്ടും ശ്രമിക്കുക."
 
 [settings]
+backToSections = "All settings"
 close = "അടയ്ക്കുക"
+title = "Settings"
 
 [settings.ai]
 documents = "പ്രമാണങ്ങൾ & RAG"
@@ -10635,6 +10648,7 @@ ariaLabel = "Super search"
 filtersAriaLabel = "Search filters"
 hint = "Type to search"
 placeholder = "Search Stirling"
+placeholderShort = "Search"
 showLess = "Show less"
 showMore = "Show {{count}} more"
 
@@ -10831,6 +10845,7 @@ searchPlaceholder = "ടോളുകൾ തിരയുക..."
 
 [toolPicker.subcategories]
 advancedFormatting = "അഡ്വാൻസ്ഡ് ഫോർമാറ്റിംഗ്"
+ai = "AI"
 automation = "ഓട്ടോമേഷൻ"
 developerTools = "ഡെവലപ്പർ ടൂളുകൾ"
 documentReview = "ഡോക്യുമെന്റ് റിവ്യൂ"
@@ -11335,8 +11350,11 @@ columnDefault = "നിര {{index}}"
 convertToPdf = "PDF ആയി മാറിക്കുക"
 csvStats = "{{rows}} വരികൾ · {{columns}} നിരകൾ · {{size}}"
 emptyFile = "ശൂന്യ ഫയൽ"
+htmlHidePreview = "Hide preview"
 htmlPreview = "HTML പ്രിവ്യൂ"
+htmlPreviewMobileHidden = "HTML pages are laid out for desktop widths, so the preview is off by default here."
 htmlPreviewWarning = "HTML പ്രിവ്യൂ — ബാഹ്യ വിഭവങ്ങൾ ലോഡ് ചെയ്യാതിരിക്കാം · {{size}}"
+htmlShowPreview = "Show preview anyway"
 invalidJson = "അസാധുവായ JSON — അസംസ്കൃത ഉള്ളടക്കം കാണിക്കുന്നു"
 lineNumbers = "വരി നമ്പറുകൾ"
 loading = "ലോഡ് ചെയ്യുന്നു..."
@@ -11683,6 +11701,7 @@ exportAll = "PDF എക്സ്പോർട്ട് ചെയ്യുക"
 exportSelected = "തിരഞ്ഞെടുത്ത പേജുകൾ എക്സ്പോർട്ട് ചെയ്യുക"
 formFill = "ഫോം പൂരിപ്പിക്കുക"
 hideToolbar = "Hide toolbar"
+moreActions = "More actions"
 multiTool = "മൾട്ടി-ടൂൾ"
 panMode = "പാൻ മോഡ്"
 print = "PDF അച്ചടിക്കുക"
@@ -11703,6 +11722,8 @@ selectAll = "എല്ലാം തിരഞ്ഞെടുക്കുക"
 selectByNumber = "പേജ് നമ്പർ പ്രകാരം തിരഞ്ഞെടുക്കുക"
 selectLanguage = "ഭാഷ തിരഞ്ഞെടുക്കുക"
 share = "പങ്കിടുക"
+showAllTools = "Show all tools"
+showFewerTools = "Collapse toolbar"
 showToolbar = "Show toolbar"
 toggleAnnotations = "അനോട്ടേഷനുകളുടെ ദൃശ്യത ടോഗിൾ ചെയ്യുക"
 toggleAttachments = "അറ്റാച്ച്മെന്റുകൾ ടോഗിൾ ചെയ്യുക"

@@ -3969,6 +3969,7 @@ back = "Tilbake"
 backToFolder = "Tilbake til {{folder}}"
 backToMyFiles = "Tilbake til Mine filer"
 breadcrumbs = "Mappesti"
+bulkActions = "Actions"
 cancel = "Avbryt"
 classification = "Klassifisering"
 clearSelection = "Tøm utvalg"
@@ -4142,6 +4143,11 @@ totalSize = "Total størrelse"
 type = "Type"
 versionHistory = "Versjonsforløp"
 
+[filesPage.filters]
+activeCount = "{{count}} filters active"
+clearAll = "Clear filters"
+label = "Filters"
+
 [filesPage.folderName]
 cancel = "Avbryt"
 error = "Kunne ikke lagre mappe. Prøv igjen."
@@ -4176,6 +4182,7 @@ label = "Filter files by name"
 placeholder = "Filter files…"
 
 [filesPage.sort]
+label = "Sort files"
 modifiedAsc = "Eldste først"
 modifiedDesc = "Nyeste først"
 nameAsc = "Navn A→Å"
@@ -4584,6 +4591,10 @@ title = "Endre Metadata"
 desc = "Endre dokumentbegrensninger og tillatelser"
 tags = "permissions,restrictions,rights,access control,allow,deny,printing,copying,editing,modify permissions,security settings,user rights"
 title = "Endre tillatelser"
+
+[home.classify]
+desc = "Identify what kind of document this is and tag it."
+title = "Classify"
 
 [home.compare]
 desc = "Sammenligner og viser forskjellene mellom to PDF-dokumenter"
@@ -9696,7 +9707,9 @@ toolNotAvailableLocally = "Stirling-PDF-serveren din er frakoblet og \"{{endpoin
 expired = "Økten din har utløpt. Vennligst oppdater siden og prøv igjen."
 
 [settings]
+backToSections = "All settings"
 close = "Lukk"
+title = "Settings"
 
 [settings.ai]
 documents = "Dokumenter og RAG"
@@ -10635,6 +10648,7 @@ ariaLabel = "Super search"
 filtersAriaLabel = "Search filters"
 hint = "Type to search"
 placeholder = "Search Stirling"
+placeholderShort = "Search"
 showLess = "Show less"
 showMore = "Show {{count}} more"
 
@@ -10831,6 +10845,7 @@ searchPlaceholder = "Søk i verktøy..."
 
 [toolPicker.subcategories]
 advancedFormatting = "Avansert formatering"
+ai = "AI"
 automation = "Automatisering"
 developerTools = "Utviklerverktøy"
 documentReview = "Dokumentgjennomgang"
@@ -11335,8 +11350,11 @@ columnDefault = "Kolonne {{index}}"
 convertToPdf = "Konverter til PDF"
 csvStats = "{{rows}} rader · {{columns}} kolonner · {{size}}"
 emptyFile = "Tom fil"
+htmlHidePreview = "Hide preview"
 htmlPreview = "HTML-forhåndsvisning"
+htmlPreviewMobileHidden = "HTML pages are laid out for desktop widths, so the preview is off by default here."
 htmlPreviewWarning = "HTML-forhåndsvisning — eksterne ressurser kan hende ikke lastes · {{size}}"
+htmlShowPreview = "Show preview anyway"
 invalidJson = "Ugyldig JSON — viser rått innhold"
 lineNumbers = "Linjenumre"
 loading = "Laster ..."
@@ -11683,6 +11701,7 @@ exportAll = "Eksporter PDF"
 exportSelected = "Eksporter valgte sider"
 formFill = "Fyll ut skjema"
 hideToolbar = "Hide toolbar"
+moreActions = "More actions"
 multiTool = "Multiverktøy"
 panMode = "Panoreringsmodus"
 print = "Skriv ut PDF"
@@ -11703,6 +11722,8 @@ selectAll = "Velg alle"
 selectByNumber = "Velg etter sidenummer"
 selectLanguage = "Velg språk"
 share = "Del"
+showAllTools = "Show all tools"
+showFewerTools = "Collapse toolbar"
 showToolbar = "Show toolbar"
 toggleAnnotations = "Veksle synlighet for annoteringer"
 toggleAttachments = "Veksle vedlegg"

@@ -3969,6 +3969,7 @@ back = "वापस"
 backToFolder = "{{folder}} पर वापस"
 backToMyFiles = "मेरी फ़ाइलों पर वापस"
 breadcrumbs = "फ़ोल्डर पथ"
+bulkActions = "Actions"
 cancel = "रद्द करें"
 classification = "वर्गीकरण"
 clearSelection = "चयन साफ़ करें"
@@ -4142,6 +4143,11 @@ totalSize = "कुल आकार"
 type = "प्रकार"
 versionHistory = "संस्करण यात्रा"
 
+[filesPage.filters]
+activeCount = "{{count}} filters active"
+clearAll = "Clear filters"
+label = "Filters"
+
 [filesPage.folderName]
 cancel = "रद्द करें"
 error = "फ़ोल्डर सहेजा नहीं जा सका। पुनः प्रयास करें।"
@@ -4176,6 +4182,7 @@ label = "Filter files by name"
 placeholder = "Filter files…"
 
 [filesPage.sort]
+label = "Sort files"
 modifiedAsc = "सबसे पुराने पहले"
 modifiedDesc = "हाल के पहले"
 nameAsc = "नाम A→Z"
@@ -4584,6 +4591,10 @@ title = "मेटाडेटा बदलें"
 desc = "दस्तावेज़ प्रतिबंध और अनुमतियाँ बदलें"
 tags = "permissions,restrictions,rights,access control,allow,deny,printing,copying,editing,modify permissions,security settings,user rights"
 title = "अनुमतियां बदलें"
+
+[home.classify]
+desc = "Identify what kind of document this is and tag it."
+title = "Classify"
 
 [home.compare]
 desc = "2 PDF दस्तावेजों के बीच अंतर की तुलना करें और दिखाएं"
@@ -9696,7 +9707,9 @@ toolNotAvailableLocally = "आपका Stirling-PDF सर्वर ऑफ़�
 expired = "आपका सत्र समाप्त हो गया है। कृपया पृष्ठ को रिफ्रेश करें और पुन: प्रयास करें।"
 
 [settings]
+backToSections = "All settings"
 close = "बंद करें"
+title = "Settings"
 
 [settings.ai]
 documents = "दस्तावेज़ और RAG"
@@ -10635,6 +10648,7 @@ ariaLabel = "Super search"
 filtersAriaLabel = "Search filters"
 hint = "Type to search"
 placeholder = "Search Stirling"
+placeholderShort = "Search"
 showLess = "Show less"
 showMore = "Show {{count}} more"
 
@@ -10831,6 +10845,7 @@ searchPlaceholder = "टूल खोजें..."
 
 [toolPicker.subcategories]
 advancedFormatting = "उन्नत फ़ॉर्मेटिंग"
+ai = "AI"
 automation = "स्वचालन"
 developerTools = "डेवलपर टूल"
 documentReview = "दस्तावेज़ समीक्षा"
@@ -11335,8 +11350,11 @@ columnDefault = "स्तंभ {{index}}"
 convertToPdf = "PDF में बदलें"
 csvStats = "{{rows}} पंक्तियाँ · {{columns}} स्तंभ · {{size}}"
 emptyFile = "खाली फ़ाइल"
+htmlHidePreview = "Hide preview"
 htmlPreview = "HTML पूर्वावलोकन"
+htmlPreviewMobileHidden = "HTML pages are laid out for desktop widths, so the preview is off by default here."
 htmlPreviewWarning = "HTML पूर्वावलोकन — बाहरी संसाधन लोड नहीं हो सकते · {{size}}"
+htmlShowPreview = "Show preview anyway"
 invalidJson = "अवैध JSON — कच्ची सामग्री दिखाई जा रही है"
 lineNumbers = "पंक्ति संख्याएँ"
 loading = "लोड हो रहा है..."
@@ -11683,6 +11701,7 @@ exportAll = "PDF निर्यात करें"
 exportSelected = "चयनित पृष्ठ निर्यात करें"
 formFill = "फ़ॉर्म भरें"
 hideToolbar = "Hide toolbar"
+moreActions = "More actions"
 multiTool = "मल्टी-टूल"
 panMode = "पैन मोड"
 print = "PDF प्रिंट करें"
@@ -11703,6 +11722,8 @@ selectAll = "सभी चुनें"
 selectByNumber = "पृष्ठ संख्याओं से चुनें"
 selectLanguage = "भाषा चुनें"
 share = "साझा करें"
+showAllTools = "Show all tools"
+showFewerTools = "Collapse toolbar"
 showToolbar = "Show toolbar"
 toggleAnnotations = "एनोटेशन की दृश्यता टॉगल करें"
 toggleAttachments = "संलग्नक टॉगल करें"

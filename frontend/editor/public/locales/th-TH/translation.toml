@@ -3969,6 +3969,7 @@ back = "ย้อนกลับ"
 backToFolder = "ย้อนกลับไปยัง {{folder}}"
 backToMyFiles = "ย้อนกลับไปยังไฟล์ของฉัน"
 breadcrumbs = "เส้นทางโฟลเดอร์"
+bulkActions = "Actions"
 cancel = "ยกเลิก"
 classification = "การจัดประเภท"
 clearSelection = "ล้างการเลือก"
@@ -4142,6 +4143,11 @@ totalSize = "ขนาดรวม"
 type = "ชนิด"
 versionHistory = "เส้นทางเวอร์ชัน"
 
+[filesPage.filters]
+activeCount = "{{count}} filters active"
+clearAll = "Clear filters"
+label = "Filters"
+
 [filesPage.folderName]
 cancel = "ยกเลิก"
 error = "ไม่สามารถบันทึกโฟลเดอร์ได้ โปรดลองอีกครั้ง."
@@ -4176,6 +4182,7 @@ label = "Filter files by name"
 placeholder = "Filter files…"
 
 [filesPage.sort]
+label = "Sort files"
 modifiedAsc = "เก่าสุดก่อน"
 modifiedDesc = "ล่าสุดก่อน"
 nameAsc = "ชื่อ A→Z"
@@ -4584,6 +4591,10 @@ title = "เปลี่ยนข้อมูลเมตา"
 desc = "เปลี่ยนข้อจำกัดและสิทธิ์ของเอกสาร"
 tags = "permissions,restrictions,rights,access control,allow,deny,printing,copying,editing,modify permissions,security settings,user rights"
 title = "เปลี่ยนสิทธิ์"
+
+[home.classify]
+desc = "Identify what kind of document this is and tag it."
+title = "Classify"
 
 [home.compare]
 desc = "เปรียบเทียบและแสดงความแตกต่างระหว่างเอกสาร PDF สองฉบับ"
@@ -9696,7 +9707,9 @@ toolNotAvailableLocally = "เซิร์ฟเวอร์ Stirling-PDF ขอ
 expired = "สถานะของคุณในระบบหมดอายุ กรุณารีเฟรชหน้าและลองใหม่อีกครั้ง"
 
 [settings]
+backToSections = "All settings"
 close = "ปิด"
+title = "Settings"
 
 [settings.ai]
 documents = "เอกสารและ RAG"
@@ -10635,6 +10648,7 @@ ariaLabel = "Super search"
 filtersAriaLabel = "Search filters"
 hint = "Type to search"
 placeholder = "Search Stirling"
+placeholderShort = "Search"
 showLess = "Show less"
 showMore = "Show {{count}} more"
 
@@ -10831,6 +10845,7 @@ searchPlaceholder = "ค้นหาเครื่องมือ..."
 
 [toolPicker.subcategories]
 advancedFormatting = "การจัดรูปแบบขั้นสูง"
+ai = "AI"
 automation = "การทำงานอัตโนมัติ"
 developerTools = "เครื่องมือสำหรับนักพัฒนา"
 documentReview = "การทบทวนเอกสาร"
@@ -11335,8 +11350,11 @@ columnDefault = "คอลัมน์ {{index}}"
 convertToPdf = "แปลงเป็น PDF"
 csvStats = "{{rows}} แถว · {{columns}} คอลัมน์ · {{size}}"
 emptyFile = "ไฟล์ว่างเปล่า"
+htmlHidePreview = "Hide preview"
 htmlPreview = "ตัวอย่าง HTML"
+htmlPreviewMobileHidden = "HTML pages are laid out for desktop widths, so the preview is off by default here."
 htmlPreviewWarning = "ตัวอย่าง HTML — อาจไม่โหลดทรัพยากรภายนอก · {{size}}"
+htmlShowPreview = "Show preview anyway"
 invalidJson = "JSON ไม่ถูกต้อง — แสดงเนื้อหาดิบ"
 lineNumbers = "หมายเลขบรรทัด"
 loading = "กำลังโหลด..."
@@ -11683,6 +11701,7 @@ exportAll = "ส่งออก PDF"
 exportSelected = "ส่งออกหน้าที่เลือก"
 formFill = "กรอกแบบฟอร์ม"
 hideToolbar = "Hide toolbar"
+moreActions = "More actions"
 multiTool = "เครื่องมือหลายฟังก์ชัน"
 panMode = "โหมดเลื่อน"
 print = "พิมพ์ PDF"
@@ -11703,6 +11722,8 @@ selectAll = "เลือกทั้งหมด"
 selectByNumber = "เลือกตามหมายเลขหน้า"
 selectLanguage = "เลือกภาษา"
 share = "แชร์"
+showAllTools = "Show all tools"
+showFewerTools = "Collapse toolbar"
 showToolbar = "Show toolbar"
 toggleAnnotations = "สลับการแสดงคำอธิบายประกอบ"
 toggleAttachments = "สลับไฟล์แนบ"

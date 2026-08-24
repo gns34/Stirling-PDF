@@ -3969,6 +3969,7 @@ back = "Înapoi"
 backToFolder = "Înapoi la {{folder}}"
 backToMyFiles = "Înapoi la Fișierele mele"
 breadcrumbs = "Calea folderului"
+bulkActions = "Actions"
 cancel = "Anulați"
 classification = "Clasificare"
 clearSelection = "Goliți selecția"
@@ -4142,6 +4143,11 @@ totalSize = "Dimensiune totală"
 type = "Tip"
 versionHistory = "Evoluție versiuni"
 
+[filesPage.filters]
+activeCount = "{{count}} filters active"
+clearAll = "Clear filters"
+label = "Filters"
+
 [filesPage.folderName]
 cancel = "Anulați"
 error = "Nu s-a putut salva folderul. Încercați din nou."
@@ -4176,6 +4182,7 @@ label = "Filter files by name"
 placeholder = "Filter files…"
 
 [filesPage.sort]
+label = "Sort files"
 modifiedAsc = "Cele mai vechi mai întâi"
 modifiedDesc = "Cele mai recente mai întâi"
 nameAsc = "Nume A→Z"
@@ -4584,6 +4591,10 @@ title = "Schimbă Metadatele"
 desc = "Schimbați restricțiile și permisiunile documentului"
 tags = "permissions,restrictions,rights,access control,allow,deny,printing,copying,editing,modify permissions,security settings,user rights"
 title = "Schimbă Permisiunile"
+
+[home.classify]
+desc = "Identify what kind of document this is and tag it."
+title = "Classify"
 
 [home.compare]
 desc = "Compară și arată diferențele dintre 2 documente PDF."
@@ -9696,7 +9707,9 @@ toolNotAvailableLocally = "Serverul dvs. Stirling-PDF este offline, iar \"{{endp
 expired = "Sesiunea dvs. a expirat. Reîmprospătați pagina și încercați din nou."
 
 [settings]
+backToSections = "All settings"
 close = "Închideți"
+title = "Settings"
 
 [settings.ai]
 documents = "Documente și RAG"
@@ -10635,6 +10648,7 @@ ariaLabel = "Super search"
 filtersAriaLabel = "Search filters"
 hint = "Type to search"
 placeholder = "Search Stirling"
+placeholderShort = "Search"
 showLess = "Show less"
 showMore = "Show {{count}} more"
 
@@ -10831,6 +10845,7 @@ searchPlaceholder = "Căutați instrumente..."
 
 [toolPicker.subcategories]
 advancedFormatting = "Formatare avansată"
+ai = "AI"
 automation = "Automatizare"
 developerTools = "Instrumente pentru dezvoltatori"
 documentReview = "Revizuire documente"
@@ -11335,8 +11350,11 @@ columnDefault = "Coloana {{index}}"
 convertToPdf = "Convertiți în PDF"
 csvStats = "{{rows}} rânduri · {{columns}} coloane · {{size}}"
 emptyFile = "Fișier gol"
+htmlHidePreview = "Hide preview"
 htmlPreview = "Previzualizare HTML"
+htmlPreviewMobileHidden = "HTML pages are laid out for desktop widths, so the preview is off by default here."
 htmlPreviewWarning = "Previzualizare HTML — resursele externe s-ar putea să nu se încarce · {{size}}"
+htmlShowPreview = "Show preview anyway"
 invalidJson = "JSON invalid — se afișează conținutul brut"
 lineNumbers = "Numere de linie"
 loading = "Se încarcă..."
@@ -11683,6 +11701,7 @@ exportAll = "Exportă PDF"
 exportSelected = "Exportă paginile selectate"
 formFill = "Completează formularul"
 hideToolbar = "Hide toolbar"
+moreActions = "More actions"
 multiTool = "Instrument multiplu"
 panMode = "Mod panoramare"
 print = "Tipărește PDF"
@@ -11703,6 +11722,8 @@ selectAll = "Selectează tot"
 selectByNumber = "Selectează după numerele paginilor"
 selectLanguage = "Selectează limba"
 share = "Partajează"
+showAllTools = "Show all tools"
+showFewerTools = "Collapse toolbar"
 showToolbar = "Show toolbar"
 toggleAnnotations = "Comută vizibilitatea adnotărilor"
 toggleAttachments = "Comută atașamentele"

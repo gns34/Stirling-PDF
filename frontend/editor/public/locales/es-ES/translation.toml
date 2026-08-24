@@ -3969,6 +3969,7 @@ back = "Atrás"
 backToFolder = "Volver a {{folder}}"
 backToMyFiles = "Volver a Mis archivos"
 breadcrumbs = "Ruta de carpeta"
+bulkActions = "Actions"
 cancel = "Cancelar"
 classification = "Clasificación"
 clearSelection = "Borrar selección"
@@ -4142,6 +4143,11 @@ totalSize = "Tamaño total"
 type = "Tipo"
 versionHistory = "Evolución de versiones"
 
+[filesPage.filters]
+activeCount = "{{count}} filters active"
+clearAll = "Clear filters"
+label = "Filters"
+
 [filesPage.folderName]
 cancel = "Cancelar"
 error = "No se pudo guardar la carpeta. Vuelve a intentarlo."
@@ -4176,6 +4182,7 @@ label = "Filter files by name"
 placeholder = "Filter files…"
 
 [filesPage.sort]
+label = "Sort files"
 modifiedAsc = "Más antiguos primero"
 modifiedDesc = "Más recientes primero"
 nameAsc = "Nombre A→Z"
@@ -4584,6 +4591,10 @@ title = "Cambiar metadatos"
 desc = "Modificar restricciones y permisos del documento"
 tags = "permisos,restricciones,derechos,control de acceso,permitir,denegar,impresión,copia,edición,modificar permisos,ajustes de seguridad,derechos de usuario"
 title = "Cambiar permisos"
+
+[home.classify]
+desc = "Identify what kind of document this is and tag it."
+title = "Classify"
 
 [home.compare]
 desc = "Comparar y mostrar las diferencias entre 2 documentos PDF"
@@ -9696,7 +9707,9 @@ toolNotAvailableLocally = "Tu servidor Stirling-PDF está sin conexión y \"{{en
 expired = "Su sesión ha caducado. Actualice la página e inténtelo de nuevo."
 
 [settings]
+backToSections = "All settings"
 close = "Cerrar"
+title = "Settings"
 
 [settings.ai]
 documents = "Documentos y RAG"
@@ -10635,6 +10648,7 @@ ariaLabel = "Super search"
 filtersAriaLabel = "Search filters"
 hint = "Type to search"
 placeholder = "Search Stirling"
+placeholderShort = "Search"
 showLess = "Show less"
 showMore = "Show {{count}} more"
 
@@ -10831,6 +10845,7 @@ searchPlaceholder = "Buscar herramientas..."
 
 [toolPicker.subcategories]
 advancedFormatting = "Formato Avanzado"
+ai = "AI"
 automation = "Automatización"
 developerTools = "Herramientas de Desarrollo"
 documentReview = "Revisión de Documentos"
@@ -11335,8 +11350,11 @@ columnDefault = "Columna {{index}}"
 convertToPdf = "Convertir a PDF"
 csvStats = "{{rows}} filas · {{columns}} columnas · {{size}}"
 emptyFile = "Archivo vacío"
+htmlHidePreview = "Hide preview"
 htmlPreview = "Vista previa de HTML"
+htmlPreviewMobileHidden = "HTML pages are laid out for desktop widths, so the preview is off by default here."
 htmlPreviewWarning = "Vista previa de HTML — los recursos externos pueden no cargarse · {{size}}"
+htmlShowPreview = "Show preview anyway"
 invalidJson = "JSON no válido — mostrando contenido sin procesar"
 lineNumbers = "Números de línea"
 loading = "Cargando..."
@@ -11683,6 +11701,7 @@ exportAll = "Exportar PDF"
 exportSelected = "Exportar páginas seleccionadas"
 formFill = "Rellenar formulario"
 hideToolbar = "Hide toolbar"
+moreActions = "More actions"
 multiTool = "Multiherramienta"
 panMode = "Modo desplazar"
 print = "Imprimir PDF"
@@ -11703,6 +11722,8 @@ selectAll = "Seleccionar todo"
 selectByNumber = "Seleccionar por números de página"
 selectLanguage = "Seleccionar idioma"
 share = "Compartir"
+showAllTools = "Show all tools"
+showFewerTools = "Collapse toolbar"
 showToolbar = "Show toolbar"
 toggleAnnotations = "Alternar visibilidad de las anotaciones"
 toggleAttachments = "Alternar adjuntos"

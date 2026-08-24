@@ -3969,6 +3969,7 @@ back = "Nazaj"
 backToFolder = "Nazaj v {{folder}}"
 backToMyFiles = "Nazaj v Moje datoteke"
 breadcrumbs = "Pot mape"
+bulkActions = "Actions"
 cancel = "Prekliči"
 classification = "Klasifikacija"
 clearSelection = "Počisti izbiro"
@@ -4142,6 +4143,11 @@ totalSize = "Skupna velikost"
 type = "Vrsta"
 versionHistory = "Zgodovina različic"
 
+[filesPage.filters]
+activeCount = "{{count}} filters active"
+clearAll = "Clear filters"
+label = "Filters"
+
 [filesPage.folderName]
 cancel = "Prekliči"
 error = "Mape ni bilo mogoče shraniti. Poskusite znova."
@@ -4176,6 +4182,7 @@ label = "Filter files by name"
 placeholder = "Filter files…"
 
 [filesPage.sort]
+label = "Sort files"
 modifiedAsc = "Najstarejše najprej"
 modifiedDesc = "Najnovejše najprej"
 nameAsc = "Ime A→Ž"
@@ -4584,6 +4591,10 @@ title = "Spremeni metapodatke"
 desc = "Spremenite omejitve in dovoljenja dokumenta"
 tags = "permissions,restrictions,rights,access control,allow,deny,printing,copying,editing,modify permissions,security settings,user rights"
 title = "Spremeni dovoljenja"
+
+[home.classify]
+desc = "Identify what kind of document this is and tag it."
+title = "Classify"
 
 [home.compare]
 desc = "Primerja in prikazuje razlike med 2 dokumentoma PDF"
@@ -9696,7 +9707,9 @@ toolNotAvailableLocally = "Vaš strežnik Stirling-PDF je brez povezave in \"{{e
 expired = "Vaša seja je potekla. Osvežite stran in poskusite znova."
 
 [settings]
+backToSections = "All settings"
 close = "Zapri"
+title = "Settings"
 
 [settings.ai]
 documents = "Dokumenti in RAG"
@@ -10635,6 +10648,7 @@ ariaLabel = "Super search"
 filtersAriaLabel = "Search filters"
 hint = "Type to search"
 placeholder = "Search Stirling"
+placeholderShort = "Search"
 showLess = "Show less"
 showMore = "Show {{count}} more"
 
@@ -10831,6 +10845,7 @@ searchPlaceholder = "Išči orodja..."
 
 [toolPicker.subcategories]
 advancedFormatting = "Napredno oblikovanje"
+ai = "AI"
 automation = "Avtomatizacija"
 developerTools = "Orodja za razvijalce"
 documentReview = "Pregled dokumenta"
@@ -11335,8 +11350,11 @@ columnDefault = "Stolpec {{index}}"
 convertToPdf = "Pretvori v PDF"
 csvStats = "{{rows}} vrstic · {{columns}} stolpcev · {{size}}"
 emptyFile = "Prazna datoteka"
+htmlHidePreview = "Hide preview"
 htmlPreview = "Predogled HTML"
+htmlPreviewMobileHidden = "HTML pages are laid out for desktop widths, so the preview is off by default here."
 htmlPreviewWarning = "Predogled HTML — zunanja sredstva se morda ne bodo naložila · {{size}}"
+htmlShowPreview = "Show preview anyway"
 invalidJson = "Neveljaven JSON — prikaz neoblikovane vsebine"
 lineNumbers = "Številke vrstic"
 loading = "Nalaganje..."
@@ -11683,6 +11701,7 @@ exportAll = "Izvozi PDF"
 exportSelected = "Izvozi izbrane strani"
 formFill = "Izpolni obrazec"
 hideToolbar = "Hide toolbar"
+moreActions = "More actions"
 multiTool = "Večnamensko orodje"
 panMode = "Način premikanja"
 print = "Natisni PDF"
@@ -11703,6 +11722,8 @@ selectAll = "Izberi vse"
 selectByNumber = "Izberi po številkah strani"
 selectLanguage = "Izberi jezik"
 share = "Delite"
+showAllTools = "Show all tools"
+showFewerTools = "Collapse toolbar"
 showToolbar = "Show toolbar"
 toggleAnnotations = "Preklopi vidnost anotacij"
 toggleAttachments = "Preklopi priloge"

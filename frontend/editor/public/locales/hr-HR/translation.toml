@@ -3969,6 +3969,7 @@ back = "Natrag"
 backToFolder = "Natrag na {{folder}}"
 backToMyFiles = "Natrag na Moje datoteke"
 breadcrumbs = "Putanja mape"
+bulkActions = "Actions"
 cancel = "Odustani"
 classification = "Klasifikacija"
 clearSelection = "Poništi odabir"
@@ -4142,6 +4143,11 @@ totalSize = "Ukupna veličina"
 type = "Vrsta"
 versionHistory = "Povijest verzija"
 
+[filesPage.filters]
+activeCount = "{{count}} filters active"
+clearAll = "Clear filters"
+label = "Filters"
+
 [filesPage.folderName]
 cancel = "Odustani"
 error = "Nije moguće spremiti mapu. Pokušajte ponovno."
@@ -4176,6 +4182,7 @@ label = "Filter files by name"
 placeholder = "Filter files…"
 
 [filesPage.sort]
+label = "Sort files"
 modifiedAsc = "Najstarije prvo"
 modifiedDesc = "Najnovije prvo"
 nameAsc = "Naziv A→Ž"
@@ -4584,6 +4591,10 @@ title = "Promjena metapodataka"
 desc = "Promijenite ograničenja dokumenta i dopuštenja"
 tags = "permissions,restrictions,rights,access control,allow,deny,printing,copying,editing,modify permissions,security settings,user rights"
 title = "Promjena dopuštenja"
+
+[home.classify]
+desc = "Identify what kind of document this is and tag it."
+title = "Classify"
 
 [home.compare]
 desc = "Uspoređuje i pokazuje razlike između 2 PDF dokumenta"
@@ -9696,7 +9707,9 @@ toolNotAvailableLocally = "Vaš Stirling-PDF poslužitelj je izvan mreže i \"{{
 expired = "Vaš sesija je istekla. Molim vas da osvježite stranicu i pokušate ponovno."
 
 [settings]
+backToSections = "All settings"
 close = "Zatvori"
+title = "Settings"
 
 [settings.ai]
 documents = "Dokumenti i RAG"
@@ -10635,6 +10648,7 @@ ariaLabel = "Super search"
 filtersAriaLabel = "Search filters"
 hint = "Type to search"
 placeholder = "Search Stirling"
+placeholderShort = "Search"
 showLess = "Show less"
 showMore = "Show {{count}} more"
 
@@ -10831,6 +10845,7 @@ searchPlaceholder = "Pretraži alate..."
 
 [toolPicker.subcategories]
 advancedFormatting = "Napredno formatiranje"
+ai = "AI"
 automation = "Automatizacija"
 developerTools = "Alati za razvojne programere"
 documentReview = "Pregled dokumenta"
@@ -11335,8 +11350,11 @@ columnDefault = "Stupac {{index}}"
 convertToPdf = "Pretvori u PDF"
 csvStats = "{{rows}} redaka · {{columns}} stupaca · {{size}}"
 emptyFile = "Prazna datoteka"
+htmlHidePreview = "Hide preview"
 htmlPreview = "HTML pregled"
+htmlPreviewMobileHidden = "HTML pages are laid out for desktop widths, so the preview is off by default here."
 htmlPreviewWarning = "HTML pregled — vanjski resursi se možda neće učitati · {{size}}"
+htmlShowPreview = "Show preview anyway"
 invalidJson = "Nevažeći JSON — prikaz neobrađenog sadržaja"
 lineNumbers = "Brojevi redaka"
 loading = "Učitavanje..."
@@ -11683,6 +11701,7 @@ exportAll = "Izvezi PDF"
 exportSelected = "Izvezi odabrane stranice"
 formFill = "Ispuni obrazac"
 hideToolbar = "Hide toolbar"
+moreActions = "More actions"
 multiTool = "Višenamjenski alat"
 panMode = "Način pomicanja"
 print = "Ispis PDF-a"
@@ -11703,6 +11722,8 @@ selectAll = "Odaberi sve"
 selectByNumber = "Odaberi po brojevima stranica"
 selectLanguage = "Odaberi jezik"
 share = "Dijeli"
+showAllTools = "Show all tools"
+showFewerTools = "Collapse toolbar"
 showToolbar = "Show toolbar"
 toggleAnnotations = "Uključi/isključi vidljivost anotacija"
 toggleAttachments = "Uključi/isključi privitke"

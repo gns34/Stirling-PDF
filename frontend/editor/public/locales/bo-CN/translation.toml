@@ -3969,6 +3969,7 @@ back = "ཕྱིར་ལོག"
 backToFolder = "{{folder}} ལ་ཕྱིར་ལོག"
 backToMyFiles = "ངའི་ཡིག་ཆར་ཕྱིར་ལོག"
 breadcrumbs = "སྣོད་ཁུངས་ལམ"
+bulkActions = "Actions"
 cancel = "འདོར"
 classification = "རིགས་དབྱེ"
 clearSelection = "འདེམས་བཤོལ"
@@ -4142,6 +4143,11 @@ totalSize = "སྤྱི་ཆེ་ཆུང"
 type = "རིགས"
 versionHistory = "པར་གཞིའི་འགྲོ་ལམ"
 
+[filesPage.filters]
+activeCount = "{{count}} filters active"
+clearAll = "Clear filters"
+label = "Filters"
+
 [filesPage.folderName]
 cancel = "འདོར"
 error = "སྣོད་འགེངས་སྲུངས་མ་ཐུབ། བསྐྱར་འདོད།"
@@ -4176,6 +4182,7 @@ label = "Filter files by name"
 placeholder = "Filter files…"
 
 [filesPage.sort]
+label = "Sort files"
 modifiedAsc = "དུས་རྙིང་བ་སོང་མ"
 modifiedDesc = "ཉེ་ཆར་སྔོན"
 nameAsc = "མིང A→Z"
@@ -4584,6 +4591,10 @@ title = "མེ་ཊ་ཌ་ཏ་བསྒྱུར་བ།"
 desc = "ཡིག་ཆའི་ཚད་བཀག་དང་ཆོག་མཆན་བསྒྱུར་བ།"
 tags = "permissions,restrictions,rights,access control,allow,deny,printing,copying,editing,modify permissions,security settings,user rights"
 title = "འཕོ་འགྱུར།"
+
+[home.classify]
+desc = "Identify what kind of document this is and tag it."
+title = "Classify"
 
 [home.compare]
 desc = "PDFཡིག་ཆ་2ཀྱི་ཁྱད་པར་བསྡུར་བ་དང་བསྡུར་བ།"
@@ -9696,7 +9707,9 @@ toolNotAvailableLocally = "ཁྱེད་ཀྱི Stirling-PDF ཞབས་ཞ
 expired = "ཁྱེད་རང་གི་ཚོགས་ཐུན་དུས་ཚོད་རྫོགས་ཡོད། ཤོག་བུ་གསར་བཟོ་བྱས་ནས་བསྐྱར་དུ་ཚོད་ལྟ་གནང་རོགས།"
 
 [settings]
+backToSections = "All settings"
 close = "ཁ་རྒྱག"
+title = "Settings"
 
 [settings.ai]
 documents = "ཡིག་ཆ་ & RAG"
@@ -10635,6 +10648,7 @@ ariaLabel = "Super search"
 filtersAriaLabel = "Search filters"
 hint = "Type to search"
 placeholder = "Search Stirling"
+placeholderShort = "Search"
 showLess = "Show less"
 showMore = "Show {{count}} more"
 
@@ -10831,6 +10845,7 @@ searchPlaceholder = "འཚོལ་ཞིབ་ལག་ཆ།"
 
 [toolPicker.subcategories]
 advancedFormatting = "ཡར་ཐོན་རྣམ་གཞག་བཟོ་བ།"
+ai = "AI"
 automation = "རང་འགུལ་ཅན།"
 developerTools = "གོང་འཕེལ་གཏོང་མཁན་གྱི་ལག་ཆ།"
 documentReview = "ཡིག་ཆ་བསྐྱར་ཞིབ།"
@@ -11335,8 +11350,11 @@ columnDefault = "གྲལ་ཐིག {{index}}"
 convertToPdf = "PDF ལ་བསྒྱུར"
 csvStats = "{{rows}} གྲལ · {{columns}} སྟར · {{size}}"
 emptyFile = "ཡིག་ཆ་སྟོང་"
+htmlHidePreview = "Hide preview"
 htmlPreview = "HTML སྔོན་ལྟ"
+htmlPreviewMobileHidden = "HTML pages are laid out for desktop widths, so the preview is off by default here."
 htmlPreviewWarning = "HTML སྔོན་ལྟ — ཕྱི་ཐོན་ཁུངས་ཚུད་མི་སྲིད · {{size}}"
+htmlShowPreview = "Show preview anyway"
 invalidJson = "JSON ནུས་མེད — ནང་དོར་ཐོག་མངོན"
 lineNumbers = "ཕྲེང་གྲངས"
 loading = "སྒྲུབ་བརྒྱབ..."
@@ -11683,6 +11701,7 @@ exportAll = "PDF ཕྱིར་འདྲེན"
 exportSelected = "འདེམས་ཟིན་པའི་ཤོག་ངོས་ཕྱིར་འདྲེན"
 formFill = "རྣམ་གཞག་ཁ་སྐོང་"
 hideToolbar = "Hide toolbar"
+moreActions = "More actions"
 multiTool = "སྣ་ཚོགས་ལག་ཆས"
 panMode = "སྤོ་བཤུད་ཐབས་ལམ"
 print = "PDF དཔར་བསྐྲུན"
@@ -11703,6 +11722,8 @@ selectAll = "ཚང་མ་འདེམས"
 selectByNumber = "ཤོག་ངོས་གྲངས་ཀྱིས་འདེམས"
 selectLanguage = "སྐད་ཡིག་འདེམས"
 share = "མཉམ་སྤྱོད"
+showAllTools = "Show all tools"
+showFewerTools = "Collapse toolbar"
 showToolbar = "Show toolbar"
 toggleAnnotations = "མཆན་བཀོད་མཐོང་རུང་བ་བསྒྱུར"
 toggleAttachments = "ཟུང་འདྲེན་བསྒྱུར"

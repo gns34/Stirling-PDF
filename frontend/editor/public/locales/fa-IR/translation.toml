@@ -3969,6 +3969,7 @@ back = "بازگشت"
 backToFolder = "بازگشت به {{folder}}"
 backToMyFiles = "بازگشت به فایل‌های من"
 breadcrumbs = "مسیر پوشه"
+bulkActions = "Actions"
 cancel = "لغو"
 classification = "طبقه‌بندی"
 clearSelection = "پاک‌کردن انتخاب"
@@ -4142,6 +4143,11 @@ totalSize = "حجم کل"
 type = "نوع"
 versionHistory = "سفر نسخه"
 
+[filesPage.filters]
+activeCount = "{{count}} filters active"
+clearAll = "Clear filters"
+label = "Filters"
+
 [filesPage.folderName]
 cancel = "لغو"
 error = "امکان ذخیرهٔ پوشه نبود. دوباره امتحان کنید."
@@ -4176,6 +4182,7 @@ label = "Filter files by name"
 placeholder = "Filter files…"
 
 [filesPage.sort]
+label = "Sort files"
 modifiedAsc = "قدیمی‌ترین ابتدا"
 modifiedDesc = "جدیدترین ابتدا"
 nameAsc = "نام A→Z"
@@ -4584,6 +4591,10 @@ title = "تغییر متاداده"
 desc = "تغییر محدودیت‌ها و مجوزهای سند"
 tags = "permissions,restrictions,rights,access control,allow,deny,printing,copying,editing,modify permissions,security settings,user rights"
 title = "تغییر مجوزها"
+
+[home.classify]
+desc = "Identify what kind of document this is and tag it."
+title = "Classify"
 
 [home.compare]
 desc = "مقایسه و نمایش تفاوت‌ها بین 2 سند PDF"
@@ -9696,7 +9707,9 @@ toolNotAvailableLocally = "سرور Stirling-PDF شما آفلاین است و \
 expired = "نشست شما به پایان رسیده است. لطفاً صفحه را تازه‌سازی کرده و دوباره تلاش کنید."
 
 [settings]
+backToSections = "All settings"
 close = "بستن"
+title = "Settings"
 
 [settings.ai]
 documents = "اسناد و RAG"
@@ -10635,6 +10648,7 @@ ariaLabel = "Super search"
 filtersAriaLabel = "Search filters"
 hint = "Type to search"
 placeholder = "Search Stirling"
+placeholderShort = "Search"
 showLess = "Show less"
 showMore = "Show {{count}} more"
 
@@ -10831,6 +10845,7 @@ searchPlaceholder = "جستجوی ابزارها..."
 
 [toolPicker.subcategories]
 advancedFormatting = "قالب‌بندی پیشرفته"
+ai = "AI"
 automation = "اتوماسیون"
 developerTools = "ابزارهای توسعه‌دهنده"
 documentReview = "بازبینی سند"
@@ -11335,8 +11350,11 @@ columnDefault = "ستون {{index}}"
 convertToPdf = "تبدیل به PDF"
 csvStats = "{{rows}} ردیف · {{columns}} ستون · {{size}}"
 emptyFile = "فایل خالی"
+htmlHidePreview = "Hide preview"
 htmlPreview = "پیش‌نمایش HTML"
+htmlPreviewMobileHidden = "HTML pages are laid out for desktop widths, so the preview is off by default here."
 htmlPreviewWarning = "پیش‌نمایش HTML — ممکن است منابع خارجی بارگذاری نشوند · {{size}}"
+htmlShowPreview = "Show preview anyway"
 invalidJson = "JSON نامعتبر — محتوای خام نمایش داده می‌شود"
 lineNumbers = "شماره خطوط"
 loading = "در حال بارگذاری..."
@@ -11683,6 +11701,7 @@ exportAll = "خروجی گرفتن از PDF"
 exportSelected = "خروجی گرفتن از صفحات منتخب"
 formFill = "پر کردن فرم"
 hideToolbar = "Hide toolbar"
+moreActions = "More actions"
 multiTool = "ابزار چندگانه"
 panMode = "حالت جابه‌جایی"
 print = "چاپ PDF"
@@ -11703,6 +11722,8 @@ selectAll = "انتخاب همه"
 selectByNumber = "انتخاب بر اساس شماره‌های صفحه"
 selectLanguage = "انتخاب زبان"
 share = "اشتراک‌گذاری"
+showAllTools = "Show all tools"
+showFewerTools = "Collapse toolbar"
 showToolbar = "Show toolbar"
 toggleAnnotations = "نمایش/مخفی کردن حاشیه‌نویسی‌ها"
 toggleAttachments = "نمایش/مخفی کردن پیوست‌ها"

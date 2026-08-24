@@ -3969,6 +3969,7 @@ back = "Tilbage"
 backToFolder = "Tilbage til {{folder}}"
 backToMyFiles = "Tilbage til Mine filer"
 breadcrumbs = "Mappesti"
+bulkActions = "Actions"
 cancel = "Annuller"
 classification = "Klassifikation"
 clearSelection = "Ryd markering"
@@ -4142,6 +4143,11 @@ totalSize = "Samlet størrelse"
 type = "Type"
 versionHistory = "Versionsrejse"
 
+[filesPage.filters]
+activeCount = "{{count}} filters active"
+clearAll = "Clear filters"
+label = "Filters"
+
 [filesPage.folderName]
 cancel = "Annuller"
 error = "Kunne ikke gemme mappe. Prøv igen."
@@ -4176,6 +4182,7 @@ label = "Filter files by name"
 placeholder = "Filter files…"
 
 [filesPage.sort]
+label = "Sort files"
 modifiedAsc = "Ældst først"
 modifiedDesc = "Nyest først"
 nameAsc = "Navn A→Z"
@@ -4584,6 +4591,10 @@ title = "Ændre Metadata"
 desc = "Ændr dokumentbegrænsninger og tilladelser"
 tags = "permissions,restrictions,rights,access control,allow,deny,printing,copying,editing,modify permissions,security settings,user rights"
 title = "Ændre Tilladelser"
+
+[home.classify]
+desc = "Identify what kind of document this is and tag it."
+title = "Classify"
 
 [home.compare]
 desc = "Sammenligner og viser forskellene mellem 2 PDF-dokumenter"
@@ -9696,7 +9707,9 @@ toolNotAvailableLocally = "Din Stirling-PDF-server er offline, og \"{{endpoint}}
 expired = "Din sesions tid har udløbet. Genlad siden og prøv igen."
 
 [settings]
+backToSections = "All settings"
 close = "Luk"
+title = "Settings"
 
 [settings.ai]
 documents = "Dokumenter & RAG"
@@ -10635,6 +10648,7 @@ ariaLabel = "Super search"
 filtersAriaLabel = "Search filters"
 hint = "Type to search"
 placeholder = "Search Stirling"
+placeholderShort = "Search"
 showLess = "Show less"
 showMore = "Show {{count}} more"
 
@@ -10831,6 +10845,7 @@ searchPlaceholder = "Søg i værktøjer..."
 
 [toolPicker.subcategories]
 advancedFormatting = "Avanceret formatering"
+ai = "AI"
 automation = "Automatisering"
 developerTools = "Udviklerværktøjer"
 documentReview = "Dokumentgennemgang"
@@ -11335,8 +11350,11 @@ columnDefault = "Kolonne {{index}}"
 convertToPdf = "Konverter til PDF"
 csvStats = "{{rows}} rækker · {{columns}} kolonner · {{size}}"
 emptyFile = "Tom fil"
+htmlHidePreview = "Hide preview"
 htmlPreview = "HTML-forhåndsvisning"
+htmlPreviewMobileHidden = "HTML pages are laid out for desktop widths, so the preview is off by default here."
 htmlPreviewWarning = "HTML-forhåndsvisning — eksterne ressourcer indlæses muligvis ikke · {{size}}"
+htmlShowPreview = "Show preview anyway"
 invalidJson = "Ugyldig JSON — viser råt indhold"
 lineNumbers = "Linjenumre"
 loading = "Indlæser..."
@@ -11683,6 +11701,7 @@ exportAll = "Eksporter PDF"
 exportSelected = "Eksporter valgte sider"
 formFill = "Udfyld formular"
 hideToolbar = "Hide toolbar"
+moreActions = "More actions"
 multiTool = "Multiværktøj"
 panMode = "Panoreringstilstand"
 print = "Udskriv PDF"
@@ -11703,6 +11722,8 @@ selectAll = "Vælg alle"
 selectByNumber = "Vælg efter sidetal"
 selectLanguage = "Vælg sprog"
 share = "Del"
+showAllTools = "Show all tools"
+showFewerTools = "Collapse toolbar"
 showToolbar = "Show toolbar"
 toggleAnnotations = "Slå anmærkninger til/fra"
 toggleAttachments = "Slå vedhæftede filer til/fra"
