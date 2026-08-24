@@ -1,5 +1,6 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from "vitest";
 import { renderHook, act } from "@testing-library/react";
+import type { ClassificationConfidence } from "@app/types/fileContext";
 
 /**
  * Mid-run race: classification is in flight (its labelled output is still
@@ -18,7 +19,7 @@ const mocks = vi.hoisted(() => ({
     sourceFileIds?: string[];
     derivedFromTool?: boolean;
     classificationLabels?: string[];
-    classificationConfidence?: "none" | "low" | "medium" | "high";
+    classificationConfidence?: ClassificationConfidence;
   }>,
   runStoredPolicy: vi.fn(),
   getPolicyRun: vi.fn(),
